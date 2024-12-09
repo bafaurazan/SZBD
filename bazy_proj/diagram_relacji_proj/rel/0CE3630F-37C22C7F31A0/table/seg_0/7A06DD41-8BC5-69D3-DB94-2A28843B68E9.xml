@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7A06DD41-8BC5-69D3-DB94-2A28843B68E9" name="Lokalizacje">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-01 18:43:09 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_lokalizacji" id="BF132460-6767-AA90-009D-01319508CC71">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-02 08:55:58 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Adres" id="8F42E7FF-0A1A-732F-1EE8-59262DE701E6">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-02 08:55:58 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Uwagi" id="5E5CF973-550E-4D12-6D60-2354EA1DC26D">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-02 08:55:58 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

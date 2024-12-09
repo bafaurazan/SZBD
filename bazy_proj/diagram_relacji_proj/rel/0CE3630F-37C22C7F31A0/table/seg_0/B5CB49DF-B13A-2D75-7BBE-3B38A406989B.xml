@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B5CB49DF-B13A-2D75-7BBE-3B38A406989B" name="Rodzaje_wydarzen">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-02 08:51:27 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_rodzaju" id="DE4C8072-1981-B55B-81DB-79A2E29C7400">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-02 08:52:50 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwa_wydarzenia" id="AD6425D4-F26F-DFC2-7748-2C4F024EB161">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-02 08:52:50 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

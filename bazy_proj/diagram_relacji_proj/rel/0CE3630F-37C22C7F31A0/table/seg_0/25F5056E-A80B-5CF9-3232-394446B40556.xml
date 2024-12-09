@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="25F5056E-A80B-5CF9-3232-394446B40556" name="Transport">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-01 18:43:37 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_transportu" id="8A9FF500-B064-76A6-E817-A2F36B069A02">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-02 08:50:31 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rodzaj" id="AB810279-C5D0-6233-5AC0-503782147511">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-02 08:50:31 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Numer_rejestracyjny" id="5EDDFA75-1B47-4688-B5DB-398BB8F902C1">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-02 08:50:31 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 CHAR</dataTypeSize>
+<ownDataTypeParameters>12 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ilosc_pasazerow" id="1FFDC0E8-3C9B-BFAB-A48A-88AB66F59255">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-02 08:50:31 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pojemnosc_transportowa" id="5061FA3E-F515-43D2-B0A2-1319315C2C4A">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-02 08:50:31 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

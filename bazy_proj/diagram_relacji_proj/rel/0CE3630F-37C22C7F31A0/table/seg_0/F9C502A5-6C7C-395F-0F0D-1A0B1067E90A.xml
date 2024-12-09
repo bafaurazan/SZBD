@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F9C502A5-6C7C-395F-0F0D-1A0B1067E90A" name="Rodzaje_zadan">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-02 08:45:48 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_zadania" id="7356EE30-51E8-0D09-3514-9690A226EB2D">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-02 08:46:46 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rodzaj_zadania" id="E0F95497-67B2-7DA4-0026-2E0CCAED1E92">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-02 08:46:46 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Opis_zadania" id="96DB328A-5336-706F-EFFC-F9C6289BD57F">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-02 08:46:46 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

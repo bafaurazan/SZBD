@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EC198158-83A6-AF97-84BC-27B42E2F1705" name="Kategoria_muzyki">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-01 18:43:42 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_kategorii_muzyki" id="3A134FF7-E8BD-AC42-74F4-DFE66DDD5B40">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-02 09:08:41 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwa_kategorii" id="107A9DD1-1F7A-3C38-3C87-5445FFACBD03">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-02 09:08:41 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>
