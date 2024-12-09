@@ -38,13 +38,18 @@
 - generowanie wstępnej ceny zlecenia
 
 3. Zabawy
-- Obsuga dodawania i aktualizaccji pozycji w bazie
+- Obsluga dodawania i aktualizaccji pozycji w bazie
 - podzial na grupy wiekowe
 - możliwość przypisania materialów do zabaw
 
 4. Materiały, wydarzenia i dane pracowników
 - Obsluga dodawania i aktualizaccji pozycji w bazie
 - możliwość przypisania materialów do wydarzenia
-- przechowywanie danych o dostępnych materiaach
-- 
+- przechowywanie danych o dostępnych materialach
+- przechowywanie danych o przyszlych/przeszlych wydarzeniach
+- przechowywanie danych personalnych pracowników
+
+5. Raportowanie i analiza:
+- Możliwość generowania szablonów animacji
+- możliwość wyświetlenia dostępnych zasobów w bazie
 
