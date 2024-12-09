@@ -35,10 +35,16 @@
 
 2. Zlecenia i oferty
 - Tworzymy zlecenie dla wybranego klienta
-- 
+- generowanie wstępnej ceny zlecenia
 
 3. Zabawy
-- 
+- Obsuga dodawania i aktualizaccji pozycji w bazie
+- podzial na grupy wiekowe
+- możliwość przypisania materialów do zabaw
 
 4. Materiały, wydarzenia i dane pracowników
--
+- Obsluga dodawania i aktualizaccji pozycji w bazie
+- możliwość przypisania materialów do wydarzenia
+- przechowywanie danych o dostępnych materiaach
+- 
+
