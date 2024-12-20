@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Zlecenia_Oferty_FK" directorySegmentName="seg_0" id="8D2C8CD9-19CC-9304-9330-2F4F458AD9F4">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:13:34 UTC</createdTime>
+<generatorID>9809734A-B0FD-81DC-70E9-4215F9FBA6AF</generatorID>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<engineerTo>
+<item key="EEE16998-D2EC-EC94-FEC3-9E5F67C7DF87" value="true"/>
+</engineerTo>
+<sourcePk>A626E86B-1331-1C48-8E35-43585163D8F0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EAEDF696-075D-1E5E-2B57-AFF8494B5D4B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1016C026-76D5-EEA9-C40F-136424902F54</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

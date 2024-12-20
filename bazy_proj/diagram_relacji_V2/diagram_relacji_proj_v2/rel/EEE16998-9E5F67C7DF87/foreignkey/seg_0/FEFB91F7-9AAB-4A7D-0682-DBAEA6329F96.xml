@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FEFB91F7-9AAB-4A7D-0682-DBAEA6329F96" containerWithKeyObject="06D827D2-94AC-91EE-1AB2-3BB00063BB02" localFKIndex="7CB14568-6185-235A-9344-D6C7F1B8E9A1" name="Miejscowosc_lokalizacji_Lokalizacja_FK">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:02:50 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<referredTableLongName>Lokalizacja</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E92EA49C-C3CA-18E0-4693-643C48AD075A</referredTableID>
+<keyObject>454E4438-85BA-A92A-8458-E670059CD71E</keyObject>
+<referredKeyID>454E4438-85BA-A92A-8458-E670059CD71E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_lokalizacji</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

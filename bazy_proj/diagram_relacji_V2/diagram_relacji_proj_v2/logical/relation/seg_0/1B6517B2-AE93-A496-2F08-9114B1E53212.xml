@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Informacja_zwrotna_Wydarzenie_FK" directorySegmentName="seg_0" id="1B6517B2-AE93-A496-2F08-9114B1E53212">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:13:34 UTC</createdTime>
+<generatorID>E650160C-747E-FFDA-6005-D0B8436CBD9D</generatorID>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<engineerTo>
+<item key="EEE16998-D2EC-EC94-FEC3-9E5F67C7DF87" value="true"/>
+</engineerTo>
+<sourcePk>816C52EF-2A45-49AF-A36A-C02C6FCD7A30</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D9E18774-4634-7FC5-3F45-A1500A4CBA6F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B2CE64E8-F2A6-D17F-C1BD-297C488C357B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

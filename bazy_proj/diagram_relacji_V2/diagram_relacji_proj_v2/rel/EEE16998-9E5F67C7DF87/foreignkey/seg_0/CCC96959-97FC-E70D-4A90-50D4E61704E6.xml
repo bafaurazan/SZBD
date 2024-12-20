@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CCC96959-97FC-E70D-4A90-50D4E61704E6" containerWithKeyObject="29DCD051-46B9-6749-E8D5-0C4D4C165117" localFKIndex="FC2A65D7-189C-0F84-475A-BB2C5FF200FD" name="Gatunek_muzyczny_Grupy_wiekowe_FK">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:00:35 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<referredTableLongName>Grupy_wiekowe</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>194B4831-C45C-E13E-B7C8-6DD7A30BFF33</referredTableID>
+<keyObject>CFD258D9-8A4D-357F-1F47-F6AA2FF581A2</keyObject>
+<referredKeyID>CFD258D9-8A4D-357F-1F47-F6AA2FF581A2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_grupy_wiekowej</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

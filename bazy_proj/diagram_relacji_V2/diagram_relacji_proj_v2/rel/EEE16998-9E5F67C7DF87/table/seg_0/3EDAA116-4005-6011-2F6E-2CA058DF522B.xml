@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3EDAA116-4005-6011-2F6E-2CA058DF522B" name="Opinia_klienta">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:43:45 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<ordsAlias>table_23</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_opinii" id="5D2AF800-7F93-BCB2-0DAE-AA1F89D8AA6B">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:44:38 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Skala_opinii" id="C2A66C10-241E-E302-3055-6B98FDA43157">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:44:38 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tresc_opinii" id="AE8CCAB2-479B-99F7-5F6D-7605122937AD">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:44:38 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Informacja_zwrotna_ID_informacji_zwrotnej" id="A888C42D-D117-1B31-0A62-684DF1AEA0CC">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:02:30 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A051197-FDF2-052C-B2F2-FD195CB7A421" referredColumn="DE2B60B5-7957-043A-C8B2-45378A15D743"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ECB461D8-AB37-41AD-3A83-9DE6556A673E" name="Opinia_klienta_PK">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:01:33 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D2AF800-7F93-BCB2-0DAE-AA1F89D8AA6B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="27283018-7B9C-9CC4-64CD-11D33ACD7F7E" name="Opinia_klienta_Informacja_zwrotna_FK">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:02:30 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A888C42D-D117-1B31-0A62-684DF1AEA0CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

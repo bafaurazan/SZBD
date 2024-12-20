@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4C51BE52-48B5-542B-ED4C-7040ED3AC77C" name="Transport">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:44:41 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<ordsAlias>table_24</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_transportu" id="4ECF6A0A-05B9-7A05-8D8B-C523B642EEE3">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:46:28 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rodzaj_transportu" id="7F2551D1-3C63-8624-A637-932DBF197468">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:46:28 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Numer_rejestracyjny_transportu" id="DF2B4A51-EF13-CC2C-F677-80CD7B2BFAB1">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:46:28 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ilosc_pasazerow_w_transporcie" id="52F755EF-5BC8-7C5F-F523-6A9D63F4B34A">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:46:28 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pojemnosc_transportowa" id="C64B0519-C5D3-F4A0-B79C-EDCB0C29B922">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:46:28 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>9</dataTypeScale>
+<ownDataTypeParameters>,2,9</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Wydarzenie_ID_wydarzenia" id="0A6D9C32-8CB1-E2F3-2059-558A437A39D9">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:02:02 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="336F3CA8-768F-2ED6-EE88-B600C7018B6B" referredColumn="B183F392-4CED-A7E1-3B57-9C6986F730EE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CF6ADBFF-09F2-1574-71BB-ED92EF965DC6" name="Transport_PK">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:01:36 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4ECF6A0A-05B9-7A05-8D8B-C523B642EEE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A807A8A-142A-1CF2-6A64-E498742A26EA" name="Transport_Wydarzenie_FK">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:02:02 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A6D9C32-8CB1-E2F3-2059-558A437A39D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

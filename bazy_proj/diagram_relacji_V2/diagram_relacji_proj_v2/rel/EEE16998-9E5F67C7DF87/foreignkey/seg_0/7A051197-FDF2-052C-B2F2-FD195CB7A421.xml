@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7A051197-FDF2-052C-B2F2-FD195CB7A421" containerWithKeyObject="3EDAA116-4005-6011-2F6E-2CA058DF522B" localFKIndex="27283018-7B9C-9CC4-64CD-11D33ACD7F7E" name="Opinia_klienta_Informacja_zwrotna_FK">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:02:30 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<referredTableLongName>Informacja_zwrotna</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7197773E-BAD9-E167-B174-BB0DE8AAF7BA</referredTableID>
+<keyObject>15CFBB13-B9ED-9192-EB9B-6F14B8C1B9E9</keyObject>
+<referredKeyID>15CFBB13-B9ED-9192-EB9B-6F14B8C1B9E9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_informacji_zwrotnej</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

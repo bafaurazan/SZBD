@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="06D827D2-94AC-91EE-1AB2-3BB00063BB02" name="Miejscowosc_lokalizacji">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:52:35 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<ordsAlias>table_26</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_miejscowosci_lokalizacji" id="BCC89745-3BF2-39D4-0D98-70FDF1896245">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:53:41 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Miejscowosc_lokalizacji" id="FC3EF4C6-05BA-A7BD-5FAD-41FD4FB64E34">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:53:41 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kod_pocztowy_lokalizacji" id="96591B53-8068-1991-9A0F-103891D5CF51">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:53:41 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Lokalizacja_ID_lokalizacji" id="3A94B304-D0BD-5E9D-DB08-DAD9ADDF1607">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:02:50 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FEFB91F7-9AAB-4A7D-0682-DBAEA6329F96" referredColumn="C69A67AF-ECDD-9E88-AC89-E2EF25E3DFD4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E361236E-A951-C9C9-978F-4D01BD997F45" name="Miejscowosc_lokalizacji_PK">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:01:44 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BCC89745-3BF2-39D4-0D98-70FDF1896245"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7CB14568-6185-235A-9344-D6C7F1B8E9A1" name="Miejscowosc_lokalizacji_Lokalizacja_FK">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:02:50 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A94B304-D0BD-5E9D-DB08-DAD9ADDF1607"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

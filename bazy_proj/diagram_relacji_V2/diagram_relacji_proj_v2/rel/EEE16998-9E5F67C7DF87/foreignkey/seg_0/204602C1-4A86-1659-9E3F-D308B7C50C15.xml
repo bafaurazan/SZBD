@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="204602C1-4A86-1659-9E3F-D308B7C50C15" containerWithKeyObject="ADCDBD2D-60EA-2166-0220-4E3D839CE943" localFKIndex="25874B47-B818-1B7F-AE84-ADDDFBD449E7" name="Utwor_Gatunek_muzyczny_FK">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:01:03 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<referredTableLongName>Gatunek_muzyczny</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>29DCD051-46B9-6749-E8D5-0C4D4C165117</referredTableID>
+<keyObject>D271EABF-2972-369D-A118-DAE7B0581698</keyObject>
+<referredKeyID>D271EABF-2972-369D-A118-DAE7B0581698</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_gatunku</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

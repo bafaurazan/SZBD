@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="diagram_relacji_proj_v2" id="E04A5F06-A314-5E97-8AE4-3330DB2D74BB" version="3.5">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-15 22:02:22 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>E04A5F06-A314-5E97-8AE4-3330DB2D74BB</designId>
+</OSDM_Design>

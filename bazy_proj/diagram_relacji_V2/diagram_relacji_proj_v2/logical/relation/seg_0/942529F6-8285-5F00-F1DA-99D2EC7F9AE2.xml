@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Miejscowosc_lokalizacji_Lokalizacja_FK" directorySegmentName="seg_0" id="942529F6-8285-5F00-F1DA-99D2EC7F9AE2">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:13:34 UTC</createdTime>
+<generatorID>FEFB91F7-9AAB-4A7D-0682-DBAEA6329F96</generatorID>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<engineerTo>
+<item key="EEE16998-D2EC-EC94-FEC3-9E5F67C7DF87" value="true"/>
+</engineerTo>
+<sourcePk>138BBD2A-5BCA-74E6-6DCA-9A2D99442582</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3BD045FA-118D-A9E6-11CF-48577721A8C6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3B374637-78C6-8998-C79A-6AD907E7F761</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6A91D7E7-3275-9744-13CA-BAEAA993F7AF" name="Uzyte_materialy">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:07:42 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<ordsAlias>table_27</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Materiały_ID_Materialy" id="191E613A-3A66-7DB2-05B3-EECB849E68A5">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:08:20 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BBFFC667-8ECA-0F85-9400-3532A5E62C28" referredColumn="1B3B2A3D-9970-7D3A-5CF6-C1886A1BB246"/>
+</associations>
+</Column>
+<Column name="Oferty_ID_oferty" id="6CB18F6A-5914-11CE-9417-56A0156AC368">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:08:36 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9A72BFDE-F267-0F32-0DBF-44FF472A35AF" referredColumn="BAC528E1-19F6-A312-CC39-76C1B7A61871"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BDCCC857-2B2F-F9E1-9C9A-451C37D59462" name="Uzyte_materialy_Materiały_FK">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:08:20 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="191E613A-3A66-7DB2-05B3-EECB849E68A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2132890C-07EE-E85C-6012-94C18888A8D3" name="Uzyte_materialy_Oferty_FK">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:08:36 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6CB18F6A-5914-11CE-9417-56A0156AC368"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

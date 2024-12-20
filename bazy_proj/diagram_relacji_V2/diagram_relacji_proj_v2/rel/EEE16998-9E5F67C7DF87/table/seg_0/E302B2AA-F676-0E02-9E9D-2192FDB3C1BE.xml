@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E302B2AA-F676-0E02-9E9D-2192FDB3C1BE" name="Kontakt_do_klienta">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-15 23:09:41 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_kontakt_do_klienta" id="0F2C046B-DE6A-F542-9396-38556E370AEF">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-15 23:11:51 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Adres_email" id="F4EA4EBD-70EB-1D82-2245-36E0F0890861">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-15 23:11:51 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Numer_telefonu" id="1AA08E0D-C0D5-DED6-CE1B-A22CBAB2F924">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-15 23:11:51 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Klienci_ID_KLIENCI" id="250015BD-4003-786D-97F5-FD98D67FB215">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:55:40 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1F86D669-AC85-8245-7E78-162C2A57D118" referredColumn="2D51411B-C819-A53B-4208-EDFC3DACF4A4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F801D32A-F381-6E25-60BD-4DD261BDA2FA" name="Konstakt_do_klienta_PK">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:55:21 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F2C046B-DE6A-F542-9396-38556E370AEF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="964F6C9D-2B73-71CF-2017-7F6EA372218E" name="Konstakt_do_klienta_Klienci_FK">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:55:40 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="250015BD-4003-786D-97F5-FD98D67FB215"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="29DCD051-46B9-6749-E8D5-0C4D4C165117" name="Gatunek_muzyczny">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:36:35 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<ordsAlias>table_19</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_gatunku" id="01D78455-DAE0-ADAC-44DA-66FEB47A5F27">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:37:03 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwa_gatunku" id="FD38DE78-A0E9-23C6-C365-F7317E36DD87">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:37:03 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Grupy_wiekowe_ID_grupy_wiekowej" id="EA322BE7-9B50-CEE6-9BA9-3222061537A1">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:00:35 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CCC96959-97FC-E70D-4A90-50D4E61704E6" referredColumn="E9EB0B34-E006-0245-5D6C-03BB70B06E42"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D271EABF-2972-369D-A118-DAE7B0581698" name="Gatunek_muzyczny_PK">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:59:24 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01D78455-DAE0-ADAC-44DA-66FEB47A5F27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FC2A65D7-189C-0F84-475A-BB2C5FF200FD" name="Gatunek_muzyczny_Grupy_wiekowe_FK">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:00:35 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA322BE7-9B50-CEE6-9BA9-3222061537A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

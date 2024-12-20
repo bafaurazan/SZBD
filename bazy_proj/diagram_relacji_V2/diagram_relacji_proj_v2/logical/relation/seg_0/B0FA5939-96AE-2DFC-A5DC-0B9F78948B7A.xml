@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Opinia_klienta_Informacja_zwrotna_FK" directorySegmentName="seg_0" id="B0FA5939-96AE-2DFC-A5DC-0B9F78948B7A">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:13:34 UTC</createdTime>
+<generatorID>7A051197-FDF2-052C-B2F2-FD195CB7A421</generatorID>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<engineerTo>
+<item key="EEE16998-D2EC-EC94-FEC3-9E5F67C7DF87" value="true"/>
+</engineerTo>
+<sourcePk>5CAD20D0-D71C-F681-996C-3DFD6E61D20E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B2CE64E8-F2A6-D17F-C1BD-297C488C357B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2D74D60C-D193-7C6E-8315-48B27C308D68</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="ED327CA2-F67A-5B56-CDF1-8A85AF0CAAD2" containerWithKeyObject="BE7804CE-3BF8-0E0D-FD72-D3AE886B68C6" localFKIndex="CD8793F9-AD2D-8E27-BF92-25DC5EF5B71A" name="Konstakt_do_pracownika_PRACOWNICY_FK">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:58:46 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<referredTableLongName>PRACOWNICY</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A8956812-CC2B-FAD7-4D37-2E4794402E7A</referredTableID>
+<keyObject>D1E46EFE-D8C6-9DCF-D82D-2531787A4724</keyObject>
+<referredKeyID>D1E46EFE-D8C6-9DCF-D82D-2531787A4724</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_PRACOWNICY</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

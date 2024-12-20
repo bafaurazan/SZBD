@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Pracownik_na_zlecenie_PRACOWNICY_FK" directorySegmentName="seg_0" id="17D19E8A-791C-38DE-F1C9-93FAEAC1D406">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:13:34 UTC</createdTime>
+<generatorID>C79E0866-623A-5ADD-B779-6228FF18F639</generatorID>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<engineerTo>
+<item key="EEE16998-D2EC-EC94-FEC3-9E5F67C7DF87" value="true"/>
+</engineerTo>
+<sourcePk>B1E922A0-FF5C-4364-2B95-9EA574C271F4</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8A2EAB4A-5ED0-4D04-868C-AE4F1001BD70</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>04AD1A50-41F7-D351-AB89-CEC3665EDF01</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

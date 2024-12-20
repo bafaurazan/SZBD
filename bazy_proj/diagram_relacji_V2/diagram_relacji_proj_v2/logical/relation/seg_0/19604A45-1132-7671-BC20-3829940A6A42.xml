@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Uzyte_materialy_Oferty_FK" directorySegmentName="seg_0" id="19604A45-1132-7671-BC20-3829940A6A42">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:13:34 UTC</createdTime>
+<generatorID>9A72BFDE-F267-0F32-0DBF-44FF472A35AF</generatorID>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<engineerTo>
+<item key="EEE16998-D2EC-EC94-FEC3-9E5F67C7DF87" value="true"/>
+</engineerTo>
+<sourcePk>A626E86B-1331-1C48-8E35-43585163D8F0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EAEDF696-075D-1E5E-2B57-AFF8494B5D4B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FEDA4B74-CF7A-60FB-C547-C85223E61D71</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

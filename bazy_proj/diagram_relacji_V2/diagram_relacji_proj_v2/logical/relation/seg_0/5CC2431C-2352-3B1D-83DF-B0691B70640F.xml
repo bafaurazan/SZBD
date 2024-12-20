@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Utwor_Gatunek_muzyczny_FK" directorySegmentName="seg_0" id="5CC2431C-2352-3B1D-83DF-B0691B70640F">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:13:34 UTC</createdTime>
+<generatorID>204602C1-4A86-1659-9E3F-D308B7C50C15</generatorID>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<engineerTo>
+<item key="EEE16998-D2EC-EC94-FEC3-9E5F67C7DF87" value="true"/>
+</engineerTo>
+<sourcePk>CD6D89B4-5592-DEE9-9407-9E0CD2A5E3BD</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B2DE180E-F144-482D-A091-61827572C7ED</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A6DF467A-7AD9-7927-D996-9322720EE9D7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

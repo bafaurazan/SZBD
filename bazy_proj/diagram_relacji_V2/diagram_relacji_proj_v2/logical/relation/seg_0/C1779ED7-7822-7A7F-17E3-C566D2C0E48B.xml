@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Wydarzenie_Zlecenia_FK" directorySegmentName="seg_0" id="C1779ED7-7822-7A7F-17E3-C566D2C0E48B">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:13:34 UTC</createdTime>
+<generatorID>0E26428E-6A7B-04BE-4E8E-65DDC112785F</generatorID>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<engineerTo>
+<item key="EEE16998-D2EC-EC94-FEC3-9E5F67C7DF87" value="true"/>
+</engineerTo>
+<sourcePk>68109F01-B7CB-9FF9-D3C5-48B76C6E43C7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1016C026-76D5-EEA9-C40F-136424902F54</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D9E18774-4634-7FC5-3F45-A1500A4CBA6F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

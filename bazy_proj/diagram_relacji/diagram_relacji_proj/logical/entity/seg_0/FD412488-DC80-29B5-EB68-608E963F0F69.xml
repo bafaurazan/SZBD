@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FD412488-DC80-29B5-EB68-608E963F0F69" name="Pracownicy">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-09 16:27:02 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj</ownerDesignName>
+<engineerTo>
+<item key="0CE3630F-5F1B-37D3-127D-37C22C7F31A0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+</Entity>

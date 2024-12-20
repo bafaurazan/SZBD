@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="76E7F6F9-140D-DDE5-1990-302AC40B1E0B" name="ADRES_KLIENTA">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-15 22:57:16 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ADRES_KLIENTA" id="1ADFFC61-0F81-27D6-46D5-253EE807D14B">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-15 23:03:02 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ulica" id="AC00C9DA-F366-95DE-7CA6-200CF34272C5">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-15 23:03:02 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Numer_budynku" id="D3003589-81BE-6A9D-AD26-7CD858363006">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-15 23:03:02 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Numer_mieszkania" id="2843A6A4-B8D8-1494-5D99-635B2AAE2A6F">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-15 23:03:02 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Klienci_ID_KLIENCI" id="A2032D58-AC14-0982-72D4-20F913D68090">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:57:15 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F5B56C3C-BFEA-3700-E44C-14BD9095FCBA" referredColumn="2D51411B-C819-A53B-4208-EDFC3DACF4A4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="991971B6-CDC7-FB95-706F-D40337A542A4" name="ADRES_KLIENTA_PK">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:55:16 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1ADFFC61-0F81-27D6-46D5-253EE807D14B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D92331FC-6A76-B0B4-D598-B794955F0E0F" name="ADRES_KLIENTA_Klienci_FK">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:57:15 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2032D58-AC14-0982-72D4-20F913D68090"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
