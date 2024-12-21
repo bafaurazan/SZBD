@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7197773E-BAD9-E167-B174-BB0DE8AAF7BA" name="Informacja_zwrotna">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:42:53 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<ordsAlias>table_22</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_informacji_zwrotnej" id="DE2B60B5-7957-043A-C8B2-45378A15D743">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:43:41 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cena_Koncowa" id="3A059A79-B90F-C183-1562-AD18B1A06AB1">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:43:41 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>9</dataTypeScale>
+<ownDataTypeParameters>,2,9</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="O_ile_przedluzone" id="1A2F0828-00B0-EA42-9F81-CEB11E16E3E8">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:43:41 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Wydarzenie_ID_wydarzenia" id="8A89D46E-CA49-B61C-675C-EAF84898E2E4">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:02:24 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E650160C-747E-FFDA-6005-D0B8436CBD9D" referredColumn="B183F392-4CED-A7E1-3B57-9C6986F730EE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="15CFBB13-B9ED-9192-EB9B-6F14B8C1B9E9" name="Informacja_zwrotna_PK">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:01:30 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE2B60B5-7957-043A-C8B2-45378A15D743"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="928D0D2C-A5CB-70DE-C432-94D45F23E6B9" name="Informacja_zwrotna_Wydarzenie_FK">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:02:24 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A89D46E-CA49-B61C-675C-EAF84898E2E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

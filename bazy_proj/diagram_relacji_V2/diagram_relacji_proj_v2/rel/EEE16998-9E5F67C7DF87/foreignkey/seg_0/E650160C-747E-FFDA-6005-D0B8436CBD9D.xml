@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E650160C-747E-FFDA-6005-D0B8436CBD9D" containerWithKeyObject="7197773E-BAD9-E167-B174-BB0DE8AAF7BA" localFKIndex="928D0D2C-A5CB-70DE-C432-94D45F23E6B9" name="Informacja_zwrotna_Wydarzenie_FK">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:02:24 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<referredTableLongName>Wydarzenie</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>781F639F-3619-3E71-69E0-7ECB3BF06CAA</referredTableID>
+<keyObject>4679B347-3515-D527-D38A-B10125DD3B78</keyObject>
+<referredKeyID>4679B347-3515-D527-D38A-B10125DD3B78</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_wydarzenia</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

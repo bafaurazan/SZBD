@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="71FA14CF-C181-3403-40E8-016DEBBC9C81" name="Zabawy">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:32:29 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Zabawy" id="22C51473-6074-231A-050F-217218C275F2">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:33:55 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwa_zabawy" id="7811146A-CEB1-9574-7F01-E8E43F3C43EF">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:33:55 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Opis_zabawy" id="650B183F-CB0E-B0B9-58DE-1D44C57A3312">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:33:55 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ilosc_animatorow_do_zabawy" id="BF4AE85C-76C0-E94A-EEAD-C4B18808E1FB">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:33:55 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ilosc_uczestnikow_do_zabawy" id="873D8AF0-B567-C8A9-B559-9AB36ECDB483">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:33:55 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Materiały_ID_Materialy" id="6CFD4574-0DB4-2EFC-06E9-8F0ECE006F9E">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:59:49 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E967A22D-FFDD-5158-635A-9A11C4B9FFFA" referredColumn="1B3B2A3D-9970-7D3A-5CF6-C1886A1BB246"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BD2D4F1E-180F-85F3-DC37-7205B4405A14" name="Zabawy_PK">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:59:16 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22C51473-6074-231A-050F-217218C275F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="49052061-8504-DF71-5DBC-E4B927F2542C" name="Zabawy_Materiały_FK">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:59:49 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6CFD4574-0DB4-2EFC-06E9-8F0ECE006F9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="52703A40-52B7-FD1A-EAE9-5F7EBDB89F11" containerWithKeyObject="681411A7-D9C0-3975-8B84-833C7FC10D7E" localFKIndex="40CD8DA4-8C18-7601-FE1C-A1F80B543242" name="ZAMOWIENIA_Materiały_FK">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:59:42 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<referredTableLongName>Materiały</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>73710486-775E-C331-148C-6122B52DE4D4</referredTableID>
+<keyObject>B0467001-4CB1-D7D5-8F24-A12B9F8023DE</keyObject>
+<referredKeyID>B0467001-4CB1-D7D5-8F24-A12B9F8023DE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Materialy</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

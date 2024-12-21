@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Transport_Wydarzenie_FK" directorySegmentName="seg_0" id="AD8EEB34-4F74-3010-91AC-6116E1FAF983">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:13:34 UTC</createdTime>
+<generatorID>336F3CA8-768F-2ED6-EE88-B600C7018B6B</generatorID>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<engineerTo>
+<item key="EEE16998-D2EC-EC94-FEC3-9E5F67C7DF87" value="true"/>
+</engineerTo>
+<sourcePk>816C52EF-2A45-49AF-A36A-C02C6FCD7A30</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D9E18774-4634-7FC5-3F45-A1500A4CBA6F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9619BD5D-F246-8EA3-96AD-321BE8F8567F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

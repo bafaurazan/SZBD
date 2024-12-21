@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8A2EAB4A-5ED0-4D04-868C-AE4F1001BD70" name="PRACOWNICY">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:13:34 UTC</createdTime>
+<generatorID>A8956812-CC2B-FAD7-4D37-2E4794402E7A</generatorID>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<engineerTo>
+<item key="EEE16998-D2EC-EC94-FEC3-9E5F67C7DF87" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID PRACOWNICY" id="78C80B0B-2CB6-6DA4-E88A-0EB8E7D0E241">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:13:34 UTC</createdTime>
+<generatorID>3D52A300-A173-7204-BDC0-B3C09F3D0F51</generatorID>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<engineerTo>
+<item key="EEE16998-D2EC-EC94-FEC3-9E5F67C7DF87" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Imie" id="A54DE10A-EF19-3BF6-1B29-60F6F3EF996B">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:13:34 UTC</createdTime>
+<generatorID>1D2D4C4E-7174-FA40-413D-BFB46075C2C6</generatorID>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<engineerTo>
+<item key="EEE16998-D2EC-EC94-FEC3-9E5F67C7DF87" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwisko" id="F0684D14-9740-4713-812C-C2710EA1710E">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:13:34 UTC</createdTime>
+<generatorID>57F4BC51-DFAA-5A82-5838-0A901CE1620E</generatorID>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<engineerTo>
+<item key="EEE16998-D2EC-EC94-FEC3-9E5F67C7DF87" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B1E922A0-FF5C-4364-2B95-9EA574C271F4" name="PRACOWNICY PK">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:13:34 UTC</createdTime>
+<generatorID>D1E46EFE-D8C6-9DCF-D82D-2531787A4724</generatorID>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<engineerTo>
+<item key="EEE16998-D2EC-EC94-FEC3-9E5F67C7DF87" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>78C80B0B-2CB6-6DA4-E88A-0EB8E7D0E241</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

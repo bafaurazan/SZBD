@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E92EA49C-C3CA-18E0-4693-643C48AD075A" name="Lokalizacja">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:46:36 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<ordsAlias>table_25</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_lokalizacji" id="C69A67AF-ECDD-9E88-AC89-E2EF25E3DFD4">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:52:24 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ulica_lokalizacji" id="075DB66F-BD6F-AC98-D9AB-C585E07B3C19">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:52:24 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Numer_budynku_lokalizacji" id="7087EFCE-F10B-DBC0-3287-D787A8AA5E00">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:52:24 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7 CHAR</dataTypeSize>
+<ownDataTypeParameters>7 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Numer_mieszkania_lokalizacji" id="61DB315C-A449-8740-D2E6-54E3BA2E986E">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:52:24 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7 CHAR</dataTypeSize>
+<ownDataTypeParameters>7 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Uwagi_do_lokalizacji" id="7C41A85B-6BAF-14A5-2A03-265B32367D53">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:52:24 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Wydarzenie_ID_wydarzenia" id="5C852C7B-FDEC-CD02-0D2B-67B66EE6DF7B">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:02:19 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="76210CF3-95B8-56F8-5941-2C1E8CB6E135" referredColumn="B183F392-4CED-A7E1-3B57-9C6986F730EE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="454E4438-85BA-A92A-8458-E670059CD71E" name="Lokalizacja_PK">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:01:40 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C69A67AF-ECDD-9E88-AC89-E2EF25E3DFD4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="345A5371-3B06-7D9F-270E-BB4767E1D228" name="Lokalizacja_Wydarzenie_FK">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:02:19 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C852C7B-FDEC-CD02-0D2B-67B66EE6DF7B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

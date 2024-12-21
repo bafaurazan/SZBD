@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="04AD1A50-41F7-D351-AB89-CEC3665EDF01" name="Pracownik na zlecenie">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:13:34 UTC</createdTime>
+<generatorID>7B9A1003-AD19-AEBD-71F1-8EA2A6D7FC63</generatorID>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<engineerTo>
+<item key="EEE16998-D2EC-EC94-FEC3-9E5F67C7DF87" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PRACOWNICY ID PRACOWNICY" id="1518431E-7AFD-60F4-FF98-962AEDBF687F">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:13:34 UTC</createdTime>
+<generatorID>17D19E8A-791C-38DE-F1C9-93FAEAC1D406</generatorID>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<engineerTo>
+<item key="EEE16998-D2EC-EC94-FEC3-9E5F67C7DF87" value="true"/>
+</engineerTo>
+<referedAttribute>78C80B0B-2CB6-6DA4-E88A-0EB8E7D0E241</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Zlecenia ID Zlecenia" id="930AAB60-3206-C832-D942-8A02078BDF26">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:13:34 UTC</createdTime>
+<generatorID>B6CE2C36-90CB-B23C-5799-E2A07CAA25C7</generatorID>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<engineerTo>
+<item key="EEE16998-D2EC-EC94-FEC3-9E5F67C7DF87" value="true"/>
+</engineerTo>
+<referedAttribute>BB64802B-D23A-E8A4-8322-87AFFA657F1E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

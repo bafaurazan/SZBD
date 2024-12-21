@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B2CE64E8-F2A6-D17F-C1BD-297C488C357B" name="Informacja zwrotna">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:13:34 UTC</createdTime>
+<generatorID>7197773E-BAD9-E167-B174-BB0DE8AAF7BA</generatorID>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<engineerTo>
+<item key="EEE16998-D2EC-EC94-FEC3-9E5F67C7DF87" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID informacji zwrotnej" id="CDE8DBBB-318E-445A-772B-AD8C9B54DE2C">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:13:34 UTC</createdTime>
+<generatorID>DE2B60B5-7957-043A-C8B2-45378A15D743</generatorID>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<engineerTo>
+<item key="EEE16998-D2EC-EC94-FEC3-9E5F67C7DF87" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cena Koncowa" id="09225DBE-FB16-FB81-0FCB-8BB58370E5CA">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:13:34 UTC</createdTime>
+<generatorID>3A059A79-B90F-C183-1562-AD18B1A06AB1</generatorID>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<engineerTo>
+<item key="EEE16998-D2EC-EC94-FEC3-9E5F67C7DF87" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>9</dataTypeScale>
+<ownDataTypeParameters>,2,9</ownDataTypeParameters>
+</Attribute>
+<Attribute name="O ile przedluzone" id="B2CC47D6-1E70-FF80-D5D8-EA62F7F699BE">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:13:34 UTC</createdTime>
+<generatorID>1A2F0828-00B0-EA42-9F81-CEB11E16E3E8</generatorID>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<engineerTo>
+<item key="EEE16998-D2EC-EC94-FEC3-9E5F67C7DF87" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Wydarzenie ID wydarzenia" id="61BCA24F-0471-A02A-22B6-B41DAAB2E598">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:13:34 UTC</createdTime>
+<generatorID>1B6517B2-AE93-A496-2F08-9114B1E53212</generatorID>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<engineerTo>
+<item key="EEE16998-D2EC-EC94-FEC3-9E5F67C7DF87" value="true"/>
+</engineerTo>
+<referedAttribute>3A96662F-C190-543E-6087-330FB3407B3A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5CAD20D0-D71C-F681-996C-3DFD6E61D20E" name="Informacja zwrotna PK">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:13:34 UTC</createdTime>
+<generatorID>15CFBB13-B9ED-9192-EB9B-6F14B8C1B9E9</generatorID>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<engineerTo>
+<item key="EEE16998-D2EC-EC94-FEC3-9E5F67C7DF87" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CDE8DBBB-318E-445A-772B-AD8C9B54DE2C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

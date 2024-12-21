@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3B374637-78C6-8998-C79A-6AD907E7F761" name="Miejscowosc lokalizacji">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:13:34 UTC</createdTime>
+<generatorID>06D827D2-94AC-91EE-1AB2-3BB00063BB02</generatorID>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<engineerTo>
+<item key="EEE16998-D2EC-EC94-FEC3-9E5F67C7DF87" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID miejscowosci lokalizacji" id="448FAFCD-5338-AA2D-7547-28251E3BDCBB">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:13:34 UTC</createdTime>
+<generatorID>BCC89745-3BF2-39D4-0D98-70FDF1896245</generatorID>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<engineerTo>
+<item key="EEE16998-D2EC-EC94-FEC3-9E5F67C7DF87" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Miejscowosc lokalizacji" id="458CF03C-492C-ED62-A401-55579303728F">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:13:34 UTC</createdTime>
+<generatorID>FC3EF4C6-05BA-A7BD-5FAD-41FD4FB64E34</generatorID>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<engineerTo>
+<item key="EEE16998-D2EC-EC94-FEC3-9E5F67C7DF87" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kod pocztowy lokalizacji" id="0E6C2398-26A8-574D-50A5-E1AC2FCCDCE8">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:13:34 UTC</createdTime>
+<generatorID>96591B53-8068-1991-9A0F-103891D5CF51</generatorID>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<engineerTo>
+<item key="EEE16998-D2EC-EC94-FEC3-9E5F67C7DF87" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Lokalizacja ID lokalizacji" id="63CA3643-F45E-B863-6E32-46D92A912C22">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:13:34 UTC</createdTime>
+<generatorID>942529F6-8285-5F00-F1DA-99D2EC7F9AE2</generatorID>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<engineerTo>
+<item key="EEE16998-D2EC-EC94-FEC3-9E5F67C7DF87" value="true"/>
+</engineerTo>
+<referedAttribute>4D7DAAA0-D1EF-F0D5-BE1B-F901F724B331</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A059A6DF-F584-DA90-4685-7E5E0D4FEDE9" name="Miejscowosc lokalizacji PK">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:13:34 UTC</createdTime>
+<generatorID>E361236E-A951-C9C9-978F-4D01BD997F45</generatorID>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<engineerTo>
+<item key="EEE16998-D2EC-EC94-FEC3-9E5F67C7DF87" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>448FAFCD-5338-AA2D-7547-28251E3BDCBB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

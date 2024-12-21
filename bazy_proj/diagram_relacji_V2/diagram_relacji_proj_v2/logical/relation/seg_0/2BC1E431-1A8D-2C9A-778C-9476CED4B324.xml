@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Gatunek_muzyczny_Grupy_wiekowe_FK" directorySegmentName="seg_0" id="2BC1E431-1A8D-2C9A-778C-9476CED4B324">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:13:34 UTC</createdTime>
+<generatorID>CCC96959-97FC-E70D-4A90-50D4E61704E6</generatorID>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<engineerTo>
+<item key="EEE16998-D2EC-EC94-FEC3-9E5F67C7DF87" value="true"/>
+</engineerTo>
+<sourcePk>E64ED00A-B99E-4181-9E0E-438BC50F0F2B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0CA22D64-2106-1670-8FFB-18B59E6AC225</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B2DE180E-F144-482D-A091-61827572C7ED</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9A72BFDE-F267-0F32-0DBF-44FF472A35AF" containerWithKeyObject="6A91D7E7-3275-9744-13CA-BAEAA993F7AF" localFKIndex="2132890C-07EE-E85C-6012-94C18888A8D3" name="Uzyte_materialy_Oferty_FK">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:08:36 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<referredTableLongName>Oferty</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>651FD459-FADF-0B90-42B3-64E81A4CE217</referredTableID>
+<keyObject>D755174B-C04E-26A6-4335-BB95D0E2C2DE</keyObject>
+<referredKeyID>D755174B-C04E-26A6-4335-BB95D0E2C2DE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_oferty</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

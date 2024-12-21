@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ADCDBD2D-60EA-2166-0220-4E3D839CE943" name="Utwor">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:37:07 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_utworu" id="4300221B-C880-9C54-14A5-B743ACA21679">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:37:47 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwa_utworu" id="B93F0053-F32D-1EE3-5F3F-E5F600CA98DE">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:37:47 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Artysta" id="F5C75642-E9DD-6EA1-980D-2894664B73A4">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:37:47 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Gatunek_muzyczny_ID_gatunku" id="8881AFEB-B80A-E364-FA41-6D2866584F09">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:01:03 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="204602C1-4A86-1659-9E3F-D308B7C50C15" referredColumn="01D78455-DAE0-ADAC-44DA-66FEB47A5F27"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3198C6D2-32F1-AD62-256C-B41200A36820" name="Utwor_PK">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:59:29 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4300221B-C880-9C54-14A5-B743ACA21679"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="25874B47-B818-1B7F-AE84-ADDDFBD449E7" name="Utwor_Gatunek_muzyczny_FK">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:01:03 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8881AFEB-B80A-E364-FA41-6D2866584F09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

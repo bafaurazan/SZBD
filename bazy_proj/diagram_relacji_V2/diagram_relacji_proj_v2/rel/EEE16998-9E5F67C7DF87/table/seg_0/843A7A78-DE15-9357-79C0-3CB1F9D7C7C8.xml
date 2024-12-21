@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="843A7A78-DE15-9357-79C0-3CB1F9D7C7C8" name="Zlecenia">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-15 22:10:23 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Zlecenia" id="633C2049-E29D-A39B-082E-AF45BD9D744B">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:41:30 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Wstepna_cena" id="02D05EAE-D74A-423D-7AAC-3DDD52D693A8">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:41:30 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>9</dataTypeScale>
+<ownDataTypeParameters>,2,9</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_wystawienia_zlecenia" id="15D050A9-72B2-1635-6D69-C80F51D06899">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:41:30 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Status_zlecenia" id="06C08EC9-D94D-6278-B816-13F46D0B3CA8">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:41:30 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Klienci_ID_KLIENCI" id="5CE356EC-2897-22BD-D2D8-0A7CAAEB78B2">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:06:17 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="62E40451-58F0-F7AD-59C1-7EF37F90936A" referredColumn="2D51411B-C819-A53B-4208-EDFC3DACF4A4"/>
+</associations>
+</Column>
+<Column name="Oferty_ID_oferty" id="3F0A99EB-11EB-C1D6-F05D-1E9139E5D1B6">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:11:00 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9809734A-B0FD-81DC-70E9-4215F9FBA6AF" referredColumn="BAC528E1-19F6-A312-CC39-76C1B7A61871"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="90B93477-036F-DCFD-9C4A-3ABD984DB77B" name="Zlecenia_PK">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:01:23 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="633C2049-E29D-A39B-082E-AF45BD9D744B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CBA07539-C1B9-AFFD-6235-AD7DCA5C912D" name="Zlecenia_Klienci_FK">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:06:17 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5CE356EC-2897-22BD-D2D8-0A7CAAEB78B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E2015D1-774E-8518-0EC0-B012825CCED6" name="Zlecenia_Oferty_FK">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:11:00 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F0A99EB-11EB-C1D6-F05D-1E9139E5D1B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

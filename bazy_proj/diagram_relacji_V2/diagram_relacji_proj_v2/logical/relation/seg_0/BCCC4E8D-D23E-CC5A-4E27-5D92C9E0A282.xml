@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Czas_zamowienia_ZAMOWIENIA_FK" directorySegmentName="seg_0" id="BCCC4E8D-D23E-CC5A-4E27-5D92C9E0A282">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:13:34 UTC</createdTime>
+<generatorID>95D7E2E7-3149-BFC5-822A-5E31F9892CAB</generatorID>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<engineerTo>
+<item key="EEE16998-D2EC-EC94-FEC3-9E5F67C7DF87" value="true"/>
+</engineerTo>
+<sourcePk>92190B44-22FB-3934-CD25-C1D20C71AF2C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>010AFA03-BAE2-6B5C-F794-2881C7F8577A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D657ADBA-0CB4-111D-2835-0826511F7475</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

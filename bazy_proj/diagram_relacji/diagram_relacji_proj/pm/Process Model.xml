@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="FBF5DC52-CEE0-FA90-6806-E2B6BBB8D6D5">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-01 18:34:44 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7E16D9F9-A57B-6962-865F-37F04F63D7E2" name="Zlecenia">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-09 16:23:31 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj</ownerDesignName>
+<engineerTo>
+<item key="0CE3630F-5F1B-37D3-127D-37C22C7F31A0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_zlecenia" id="BBBFF1CD-909A-4FD4-EBF3-51D7D657DAC4">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-09 16:30:42 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj</ownerDesignName>
+<engineerTo>
+<item key="0CE3630F-5F1B-37D3-127D-37C22C7F31A0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Wstepna_cena" id="965584D7-B03E-3000-C20A-32CC3F8B68E4">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-09 16:30:51 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj</ownerDesignName>
+<engineerTo>
+<item key="0CE3630F-5F1B-37D3-127D-37C22C7F31A0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,2,6</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data" id="31855B0E-E37D-1A1C-5C2E-EBEC88BB16A1">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-09 16:32:26 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj</ownerDesignName>
+<engineerTo>
+<item key="0CE3630F-5F1B-37D3-127D-37C22C7F31A0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Status_zlecenia" id="4B0E674B-B25A-5FC3-07C7-B8703D34A9F9">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-09 16:33:21 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj</ownerDesignName>
+<engineerTo>
+<item key="0CE3630F-5F1B-37D3-127D-37C22C7F31A0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

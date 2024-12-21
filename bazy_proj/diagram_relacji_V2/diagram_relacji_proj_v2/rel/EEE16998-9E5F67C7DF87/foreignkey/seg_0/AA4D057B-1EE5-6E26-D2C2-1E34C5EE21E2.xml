@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AA4D057B-1EE5-6E26-D2C2-1E34C5EE21E2" containerWithKeyObject="194B4831-C45C-E13E-B7C8-6DD7A30BFF33" localFKIndex="E86DC6A0-7491-EFE0-1869-6EE84F749E97" name="Grupy_wiekowe_Zabawy_FK">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:00:28 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<referredTableLongName>Zabawy</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>71FA14CF-C181-3403-40E8-016DEBBC9C81</referredTableID>
+<keyObject>BD2D4F1E-180F-85F3-DC37-7205B4405A14</keyObject>
+<referredKeyID>BD2D4F1E-180F-85F3-DC37-7205B4405A14</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Zabawy</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

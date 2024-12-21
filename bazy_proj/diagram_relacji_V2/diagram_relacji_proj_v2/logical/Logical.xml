@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="549146DF-5DED-FD24-FADF-4F3846335521" mainViewID="B3C179AF-A3A6-F536-1B60-C8DC156B1355">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-15 22:02:22 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

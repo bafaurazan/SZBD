@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BF9C64C1-4D41-8ADB-AC7A-2A16D8429648" name="Czas_zamowienia">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:30:05 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Czasu_zamowienia" id="09D7CA72-C416-9EC5-DC63-8B093B9B3065">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:31:00 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_dostawy" id="FCF5996B-3722-11BA-DF76-71EBBB931C5A">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:31:00 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Godzina_dostawy" id="E35F2C6E-25BC-E495-E264-28AE5159AA8F">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:31:00 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_zakupu" id="3AF4DE1E-07BA-A26D-A2BA-2A43A34AA0C3">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:31:00 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Godzina_zakupu" id="B92F2147-451E-6624-AB34-9DA019E674F0">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:32:12 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZAMOWIENIA_ID_Zamowienia" id="53DA5B5E-10B2-1512-D83D-14E2ED8F633B">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:00:13 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="95D7E2E7-3149-BFC5-822A-5E31F9892CAB" referredColumn="172658FD-8897-4B15-F5D1-233912D5980A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ADDA0BB8-DCA5-3769-CE6F-9A3BADD5AD5B" name="Czas_zamowienia_PK">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 08:59:12 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09D7CA72-C416-9EC5-DC63-8B093B9B3065"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5FA8E31E-6A85-F7FB-4448-621797EB014E" name="Czas_zamowienia_ZAMOWIENIA_FK">
+<createdBy>rafal</createdBy>
+<createdTime>2024-12-16 09:00:13 UTC</createdTime>
+<ownerDesignName>diagram_relacji_proj_v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53DA5B5E-10B2-1512-D83D-14E2ED8F633B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
