@@ -20,6 +20,7 @@ Zabezpieczenia/ograniczenia tabel (Tworzenie tabel w SQL chatgpt chat + zmiany s
 - zmienić układ daty w całej bazie
 - ogólne statystyki co do wszystkich tabel (ile jest tabel w ogóle itd)
 - jak będzie czas to zmienić bullshit data na actual data od animatorów (z pdfa)
+- SCREENSHOTY Z URUCHAMIANYCH KWEREND DO TESTOWANIA I ALGEBRY
 
 
 
@@ -32,9 +33,9 @@ Zabezpieczenia/ograniczenia tabel (Tworzenie tabel w SQL chatgpt chat + zmiany s
     - [X] Wybierające
     - [X] Agregujące
     - [X] Implementujące kwerenedy z części logicznej (w notacji algebry relacyjnej)
-- [ ] Dołączyć wszystkie skrypty utworzonej bazy danych i kwerend
+- [X] Dołączyć wszystkie skrypty utworzonej bazy danych i kwerend
 
 
 # PROJEKT LOGICZNY (PDF) TO-DO:
-- [ ] Propozycja operacji na danych - przygotowanie propozycji min. 10 kwerend do zaproponowanej bazy danych w oparciu o notację operacji algebry relacyjnej
-- [ ] Opis procesu normalizacji
+- [X] Propozycja operacji na danych - przygotowanie propozycji min. 10 kwerend do zaproponowanej bazy danych w oparciu o notację operacji algebry relacyjnej
+- [X] Opis procesu normalizacji
