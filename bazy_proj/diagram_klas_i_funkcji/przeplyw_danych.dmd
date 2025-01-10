@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="przeplyw_danych" id="FADD0E4D-7BC6-24FC-0BB7-BDCFA44C3DDA" version="3.5">
+<createdBy>rafal</createdBy>
+<createdTime>2025-01-10 20:18:03 UTC</createdTime>
+<ownerDesignName>przeplyw_danych</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>FADD0E4D-7BC6-24FC-0BB7-BDCFA44C3DDA</designId>
+</OSDM_Design>

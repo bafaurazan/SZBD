@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="68B7DEDB-50E3-0C56-1877-CE32B77182AB">
+<createdBy>rafal</createdBy>
+<createdTime>2025-01-10 20:18:03 UTC</createdTime>
+<ownerDesignName>przeplyw_danych</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_5" directorySegmentName="seg_0" id="EB70571F-EE4A-D654-FDA7-99E2DA9D9716">
+<createdBy>rafal</createdBy>
+<createdTime>2025-01-10 20:31:16 UTC</createdTime>
+<ownerDesignName>przeplyw_danych</ownerDesignName>
+<engineerTo>
+<item key="6C7C0BFC-A89A-A4CE-FDBD-D9F4AD0CE7E4" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2971A8FD-97D5-A60F-497F-79F6AFAD3271</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3F31D62D-18E1-D966-F2D5-7E2089A6616E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="81053264-3B66-C6F3-5273-FD291158E418">
+<createdBy>rafal</createdBy>
+<createdTime>2025-01-10 20:18:03 UTC</createdTime>
+<ownerDesignName>przeplyw_danych</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

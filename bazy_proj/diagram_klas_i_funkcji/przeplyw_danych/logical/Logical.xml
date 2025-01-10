@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="E464F029-6E50-96C3-DDCB-2B9FC3627642" mainViewID="C8320DA3-E1A9-23B4-551D-3DBFBD5E5A58">
+<createdBy>rafal</createdBy>
+<createdTime>2025-01-10 20:18:03 UTC</createdTime>
+<ownerDesignName>przeplyw_danych</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
