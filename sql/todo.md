@@ -19,9 +19,22 @@ Zabezpieczenia/ograniczenia tabel (Tworzenie tabel w SQL chatgpt chat + zmiany s
 # To-Do:
 - zmienić układ daty w całej bazie
 - ogólne statystyki co do wszystkich tabel (ile jest tabel w ogóle itd)
+- jak będzie czas to zmienić bullshit data na actual data od animatorów (z pdfa)
 
 
 
+# PROJEKT IMPLEMENTACYJNY (PDF) TO-DO:
+- [ ] Sprawozdanie z procesu realizacji zaprojektowanej bazy danych w wybranym środowisku
+- [X] Skrypty SQL:
+  - [X] Stworzenie tabel (wraz z ograniczeniami)
+  - [X] Wprowadzenie danych do tabeli (INSERT)
+  - [X] Tworzenie kwerend:
+    - [X] Wybierające
+    - [X] Agregujące
+    - [X] Implementujące kwerenedy z części logicznej (w notacji algebry relacyjnej)
+- [ ] Dołączyć wszystkie skrypty utworzonej bazy danych i kwerend
 
-    CONSTRAINT nazwa_utworu_not_empty CHECK (TRIM(nazwa_utworu) IS NOT NULL),
-    CONSTRAINT wykonawca_utworu_not_empty CHECK (TRIM(wykonawca_utworu) IS NOT NULL)
+
+# PROJEKT LOGICZNY (PDF) TO-DO:
+- [ ] Propozycja operacji na danych - przygotowanie propozycji min. 10 kwerend do zaproponowanej bazy danych w oparciu o notację operacji algebry relacyjnej
+- [ ] Opis procesu normalizacji
