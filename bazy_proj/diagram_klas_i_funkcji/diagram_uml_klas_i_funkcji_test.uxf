@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>7</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>511</x>
+      <y>0</y>
+      <w>210</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>Oferty
+--
+- ID_oferty
+- Typ_pakietu
+- Cena_pakietu
+- Opis_oferty
+--
++Dodaj ofertę
++Edytuj ofertę
++Znajdź ofertę
++Generuj cennik ofert
++Usuń ofertę</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>7</x>
+      <y>385</y>
+      <w>336</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>Pracownik
+--
+- ID_pracownika
+- Nazwa_pracownika
+- Kontakt_do_pracownika
+- Adres_pracownika
+--
++Dodaj pracownika
++Zarządzaj harmonogramem
++Edytuj dane pracownika
++Raport pracy pracownika
++Usuń pracownika</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>7</y>
+      <w>301</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>Klient
+--
+- ID_klienta
+- Nazwa_klienta
+- Kontakt_do_klienta
+- Adres_klienta
+--
++Dodaj klienta
++Edytuj dane klienta
++Znajdź klienta
++Usuń klienta
++Historia zleceń klienta</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>392</x>
+      <y>154</y>
+      <w>210</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>Zlecenia
+--
+- ID_zlecenia
+- Wstepna_cena
+- Data_wystawienia_zlecenia
+- Status_zlecenia
+--
++Dodaj zlecenie
++Przypisz pracowników do zlecenia
++Edytuj zlecenie
++Generuj harmonogram zleceń
++Raport realizacji zlecenia</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>525</x>
+      <y>322</y>
+      <w>210</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>Materialy
+--
+- ID_materialu
+- Ilosc_materialow
+- Zamowienie
+- Zabawy
+--
++Dodaj materiał
++Aktualizuj stan materiałów
++Znajdź materiał
++Generuj raport stanu materiałów
++Usuń materiał</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>532</x>
+      <y>693</y>
+      <w>210</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>Oferty
+--
+- ID_oferty Integer
+- Typ_pakietu: String
+- Cena_pakietu: float
+- Opis_oferty: String
+--
++Wyszukaj oferty(Typ_pakietu: String,
+Cena_pakietu: float) String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>56</x>
+      <y>1092</y>
+      <w>336</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>Pracownik
+--
+- ID_pracownika: Integer
+- Nazwa_pracownika: String
+- Kontakt_do_pracownika: String
+- Adres_pracownika: String
+--
++Ustaw imie i nazwisko pracownika(nazwa_pracownika): String
++Ustaw dane kontaktowe do pracownika(Kontakt_do_pracownika): String
++Ustaw dane adresowe pracownika(Adres_pracownika): String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>70</x>
+      <y>770</y>
+      <w>301</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>Klient
+--
+- ID_klienta: Integer
+- Nazwa_klienta: String
+- Kontakt_do_klienta: String
+- Adres_klienta: String
+--
++Ustaw imie i nazwisko klienta(Nazwa_klienta): String
++Ustaw dane kontaktowe do klienta(Kontakt_do_klienta): String
++Ustaw dane adresowe klienta(Adres_klienta): String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>427</x>
+      <y>861</y>
+      <w>210</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>Zlecenia
+--
+- ID_zlecenia: Integer
+- Wstepna_cena: float
+- Data_wystawienia_zlecenia: Date
+- Status_zlecenia: String
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>483</x>
+      <y>1022</y>
+      <w>210</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>Materialy
+--
+- ID_materialu: Integer
+- Ilosc_materialow: float
+- Zamowienie: String
+- Zabawy: String
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

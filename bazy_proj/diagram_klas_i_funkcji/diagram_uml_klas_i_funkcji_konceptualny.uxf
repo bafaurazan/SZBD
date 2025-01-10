@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>8</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>536</x>
+      <y>72</y>
+      <w>240</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>Oferty
+--
+- ID_OFERTY
+- Typ_pakietu
+- Cena_pakietu_oferty
+- Czas_trwania_oferty
+- Opis_oferty
+--
++Dodaj oferte
++Edytuj oferte
++Znajdz oferte
++Generuj cennik ofert
++Usun oferte</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>8</x>
+      <y>440</y>
+      <w>384</w>
+      <h>152</h>
+    </coordinates>
+    <panel_attributes>Pracownik
+--
+- ID_pracownika
+- Nazwa_pracownika
+- Kontakt_do_pracownika
+- Adres_pracownika
+--
++Dodaj pracownika
++Zarządzaj harmonogramem
++Edytuj dane pracownika
++Raport pracy pracownika
++Usuń pracownika</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>0</y>
+      <w>344</w>
+      <h>152</h>
+    </coordinates>
+    <panel_attributes>Klient
+--
+- ID_KLIENTA
+- Nazwa_klienta
+- Kontakt_do_klienta
+- Adres_klienta
+--
++Dodaj klienta
++Edytuj dane klienta
++Znajdz klienta
++Usun klienta
++Historia zlecen klienta</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>264</x>
+      <y>176</y>
+      <w>240</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>Zlecenia
+--
+- ID_ZLECENIA
+- Wstepna_cena_zlecenia
+- Data_wystawienia_zlecenia
+- Status_zlecenia
+- Wydarzenie
+--
++Dodaj zlecenie
++Edytuj zlecenie
++Generuj harmonogram zlecen
++Raport realizacji zlecenia</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>512</x>
+      <y>472</y>
+      <w>240</w>
+      <h>168</h>
+    </coordinates>
+    <panel_attributes>Materialy
+--
+- ID_MATERIALU
+- Nazwa_materialu
+- Ilosc_materialow
+- Zamowienie
+- Zabawy
+--
++Dodaj material
++Aktualizuj stan materialow
++Znajdz material
++Generuj raport stanu materialow
++Usun material</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>24</x>
+      <y>264</y>
+      <w>208</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>Pracownik_na_zlecenie
+--
+
+--
++Przypisz pracownika do zlecenia
++Usun przypisanie
++Generuj raport z przypisan</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>544</x>
+      <y>288</y>
+      <w>208</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes>Materialy_na_oferte
+--
+
+--
++Dodaj material do oferty
++Usun material z oferty
++Generuj raport z materialow w ofertach</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>136</x>
+      <y>360</y>
+      <w>208</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..n
+m2=0..1
+Przypisanie pracownika do zlecen &gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>48</x>
+      <y>184</y>
+      <w>232</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..n
+m2=0..1
+Przypisanie zlecenia do pracownikow &gt;</panel_attributes>
+    <additional_attributes>60.0;100.0;60.0;20.0;270.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>576</x>
+      <y>392</y>
+      <w>192</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..n
+m2=0..1
+Przypisanie materialu do oferty &gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>560</x>
+      <y>224</y>
+      <w>200</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..n
+m2=0..1
+Przypisanie oferty do materialow &gt;</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>336</x>
+      <y>112</y>
+      <w>120</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;..
+Zamawia &gt;</panel_attributes>
+    <additional_attributes>120.0;80.0;120.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>448</x>
+      <y>72</y>
+      <w>104</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+Zawiera sie</panel_attributes>
+    <additional_attributes>10.0;130.0;10.0;10.0;110.0;10.0</additional_attributes>
+  </element>
+</diagram>
