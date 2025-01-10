@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E1D9B369-45AB-C69A-B3A2-8E9B18FCD5FC" name="OPINIA_KLIENTA">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 13:37:14 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_OPINIA_KLIENTA" id="960D703D-E12B-776A-F9B0-13D2C2CA7167">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 13:38:10 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Skala_opinii_klienta" id="52508E0E-6C47-DA09-6599-8707B175B8A5">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 13:38:10 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tresc_opinii_klienta" id="DDB912C5-5A7B-9CCA-6D1E-A768BA77AFC2">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 13:38:10 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INFORMACJA_ZWROTNA_ID_FK" id="16F2DA39-7EA2-29D6-4936-18812931B1CC">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 16:44:54 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9077F98E-9548-3C08-0612-FA74DB20133B" referredColumn="CCD30D63-1306-C225-0EBA-E7BD7A2A160E"/>
+</associations>
+</Column>
+<Column name="KLIENCI_ID_FK" id="BDE07332-479D-2CF7-C46C-A5A5C321AEE8">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 17:07:37 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="109196D1-D382-58C0-8D27-A70E47ED99A4" referredColumn="4BB7B183-6DDE-A36E-95B5-3B70FB118768"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="84C90D77-CFE8-51B4-4F43-6391E3A7BB41" name="OPINIA_KLIENTA_PK">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 13:38:10 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="960D703D-E12B-776A-F9B0-13D2C2CA7167"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B6BAA9F6-EEDA-6676-E86C-221F3FC47F4D" name="op_kl_inf_fk">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 16:44:54 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16F2DA39-7EA2-29D6-4936-18812931B1CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="02F8864C-ED38-0102-D4FD-103819A9F3A6" name="op_kl_kl_fk">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 17:07:37 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BDE07332-479D-2CF7-C46C-A5A5C321AEE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

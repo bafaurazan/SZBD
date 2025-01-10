@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FD223C61-7B2B-7F0D-7D69-9897D72D080C" containerWithKeyObject="E1398533-CF61-8B48-D638-1D4B993F0225" localFKIndex="574FFFED-54C0-03B7-15A5-5ADA481CE36C" name="zlec_oft_fk">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 14:21:42 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<referredTableLongName>OFERTY</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7AC6B977-C03E-AB74-F7AC-95F82D27DC81</referredTableID>
+<keyObject>1E412EBC-23AD-FB7D-F27C-E25B572572BA</keyObject>
+<referredKeyID>1E412EBC-23AD-FB7D-F27C-E25B572572BA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_OFERTY</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

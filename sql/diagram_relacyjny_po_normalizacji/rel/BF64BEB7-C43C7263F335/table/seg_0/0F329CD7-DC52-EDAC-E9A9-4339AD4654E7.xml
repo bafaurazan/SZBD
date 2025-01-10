@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0F329CD7-DC52-EDAC-E9A9-4339AD4654E7" name="KLIENCI">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 12:42:14 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_KLIENCI" id="4BB7B183-6DDE-A36E-95B5-3B70FB118768">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 12:45:30 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Imie_klienta" id="2CE4380E-AD88-DB1E-B484-FFFDB48E5834">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 12:45:30 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35 CHAR</dataTypeSize>
+<ownDataTypeParameters>35 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwisko_klienta" id="FCDBC8FF-2AA2-F316-494A-30A49425833E">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 12:45:30 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="24D4ECEE-10FD-8E91-3286-1C20DF450085" name="KLIENCI_PK">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 12:45:30 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BB7B183-6DDE-A36E-95B5-3B70FB118768"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

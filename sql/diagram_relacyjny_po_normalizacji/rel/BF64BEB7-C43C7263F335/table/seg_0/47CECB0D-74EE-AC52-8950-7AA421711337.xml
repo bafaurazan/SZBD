@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="47CECB0D-74EE-AC52-8950-7AA421711337" name="ZABAWY">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 16:53:27 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<ordsAlias>table_22</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ZABAWY" id="64191B8C-D21E-F705-57DA-4125256E1E28">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 16:54:36 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwa_zabawy" id="C350FEBB-6C37-E52A-457D-2E0F5FE68D96">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 16:54:36 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Opis_zabawy" id="DACACE64-59B4-5CE9-A188-70F9A21CF5CF">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 16:54:36 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ilosc_animatorow_do_zabawy" id="6E42E204-4401-6407-8713-088D7B11FC11">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 16:54:36 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ilosc_uczestnikow_do_zabawy" id="1A1EFDDE-92F0-FD85-4EA1-4ED357301D57">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 16:54:36 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MATERIALY_ID_FK" id="D6880B04-B9BD-7542-4CED-E6F661A43CDA">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 16:55:05 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0E4122C1-7592-66F8-C80B-DEE611776D98" referredColumn="C7725AFB-128C-6937-1A8D-7E61C047CA76"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BB517F2A-3CFD-2514-06CA-C4317DBDBBF0" name="ZABAWY_PK">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 16:54:36 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64191B8C-D21E-F705-57DA-4125256E1E28"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="454B2E89-2243-A7B6-AEB0-A68E8F32E9CD" name="zab_mat_fk">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 16:55:05 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6880B04-B9BD-7542-4CED-E6F661A43CDA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

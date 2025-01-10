@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1C9738E2-D882-01E3-8987-067C148F6AF6" name="MATERIALY">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 14:25:58 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<ordsAlias>table_21</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_MATERIALU" id="C7725AFB-128C-6937-1A8D-7E61C047CA76">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 14:28:05 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwa_materialu" id="9C2C1092-B655-ADF4-0DF4-152CF9932C30">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 14:28:05 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dostepna_ilosc_materialow" id="F5476ED4-7EB4-76C8-8F17-45B7CA116951">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 14:28:05 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Wymagana_ilosc_materialow" id="BEDDF974-1833-973D-7E17-6AC2A7CD2E43">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 14:28:05 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GRUPY_MATERIALOW_ID_FK" id="92B6B9CF-3AE9-203D-54C1-C3B0FD15AF7B">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 21:06:40 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="81E70E58-81B5-2304-6956-8A988505A5BE" referredColumn="5B6A0A17-6759-BE76-A58F-D13034EC9217"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="632D6286-6AFF-E0C2-737B-1D21A4159744" name="MATERIALY_PK">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 14:28:05 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7725AFB-128C-6937-1A8D-7E61C047CA76"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C0CB7821-7D87-A706-75B5-780BFF145D3E" name="mat_grp_fk">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 21:06:40 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92B6B9CF-3AE9-203D-54C1-C3B0FD15AF7B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

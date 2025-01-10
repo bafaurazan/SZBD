@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F3806175-6356-76E8-6889-2DEAAF179006" name="GRUPY_WIEKOWE">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 16:55:22 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<ordsAlias>table_23</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_GRUPY_WIEKOWE" id="A1D228F6-2841-9F06-5495-B33AC1377260">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 16:56:06 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Minimalny_wiek_grupy_wiekowej" id="32B64177-B803-387D-6C70-D91A014A16B1">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 16:56:06 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Maksymalny_wiek_grupy_wiekowej" id="66AC9004-7526-4581-5132-79CE4D841DF0">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 16:56:06 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZABAWY_ID_FK" id="76F5F85F-6E91-BD26-6530-90C9DA45BF75">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 16:58:34 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AFEFEC74-8BF9-69C6-A03C-7605C202BA6A" referredColumn="64191B8C-D21E-F705-57DA-4125256E1E28"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C7F6A847-5266-195A-1AB8-0125A61A21B3" name="GRUPY_WIEKOWE_PK">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 16:56:06 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1D228F6-2841-9F06-5495-B33AC1377260"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="170A48E6-414E-E09B-79CE-7849074283B2" name="grp_wie_zab_fk">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 16:58:34 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76F5F85F-6E91-BD26-6530-90C9DA45BF75"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

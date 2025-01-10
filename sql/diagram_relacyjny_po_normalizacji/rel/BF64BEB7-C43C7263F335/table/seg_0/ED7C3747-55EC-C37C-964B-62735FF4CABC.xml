@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ED7C3747-55EC-C37C-964B-62735FF4CABC" name="MIEJSCOWOSCI">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 20:51:35 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<ordsAlias>table_27</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_MIEJSCOWOSCI" id="955A0D0B-9AA0-DB3A-8309-59537CA61C08">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 20:53:52 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwa_miejscowosci" id="1281597D-2FD0-9AC5-AA39-5EC392BF3278">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 20:53:52 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kod_pocztowy" id="9C19F9B8-769E-CC66-01B4-B196C1B1974B">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 20:53:52 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C48A41F1-B2CD-9B23-F974-3C320CC1F311" name="MIEJSCOWOSCI_PK">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 20:53:52 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="955A0D0B-9AA0-DB3A-8309-59537CA61C08"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

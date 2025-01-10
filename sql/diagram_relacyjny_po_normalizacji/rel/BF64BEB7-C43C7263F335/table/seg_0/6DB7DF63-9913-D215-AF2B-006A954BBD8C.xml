@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6DB7DF63-9913-D215-AF2B-006A954BBD8C" name="GATUNEK_MUZYCZNY">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 16:56:15 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<ordsAlias>table_24</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_GATUNEK_MUZYCZNY" id="732A4213-8569-08AA-C918-F5D4FBB4835F">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 16:56:50 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwa_gatunku_muzycznego" id="D4DEB93B-518C-2A2A-6D7E-E53DF2787520">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 16:56:50 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GRUPY_WIEKOWE_ID_FK" id="43CBC8CD-5C57-5329-A3C8-091ABBA23DDB">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 16:58:40 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC4E12B8-102C-1F37-6A52-29EEAAE8C8E1" referredColumn="A1D228F6-2841-9F06-5495-B33AC1377260"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="964C52B8-B4BD-85AC-5A33-54B3F774D5EC" name="GATUNEK_MUZYCZNY_PK">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 16:56:50 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="732A4213-8569-08AA-C918-F5D4FBB4835F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="38570822-B37E-B1F8-7C62-235596CB8073" name="gat_muz_grp_fk">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 16:58:40 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43CBC8CD-5C57-5329-A3C8-091ABBA23DDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

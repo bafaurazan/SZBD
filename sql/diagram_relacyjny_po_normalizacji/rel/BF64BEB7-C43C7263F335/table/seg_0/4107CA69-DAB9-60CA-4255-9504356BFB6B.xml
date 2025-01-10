@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4107CA69-DAB9-60CA-4255-9504356BFB6B" name="WYDARZENIE">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 13:33:32 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_WYDARZENIE" id="F25BC7F8-5C94-11F5-FB5F-3E58E4D9A019">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 13:34:57 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwa_wydarzenia" id="C27ACCEE-90D5-8EC8-A4AF-80D547C4D552">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 13:34:57 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Typ_wydarzenia" id="101FBF1C-ACE5-0EB2-9E14-98BAF47F02D1">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 13:34:57 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_wydarzenia" id="F38600F3-1C99-5F24-B7D1-E84F7F110BA6">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 13:34:57 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZLECENIA_ID_FK" id="CE9CEA50-3F2E-11CD-E8EB-BBE9C3F7357A">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 16:46:14 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="177D0B09-2E5C-800E-0549-2F63D410B02E" referredColumn="D8B71B3C-9724-ED95-713F-96C3D921202E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="80DDB2CD-5F9F-3EA8-17B0-7084AAF83FDC" name="WYDARZENIE_PK">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 13:34:57 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F25BC7F8-5C94-11F5-FB5F-3E58E4D9A019"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="48965C42-0733-48A7-8427-584C170D762B" name="wyd_zlec_fk">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 16:46:14 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE9CEA50-3F2E-11CD-E8EB-BBE9C3F7357A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

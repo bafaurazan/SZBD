@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="27F6B0A0-3B9E-8074-6140-97AD27D6BF07" name="CZAS_ZAMOWIENIA">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 16:50:56 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<ordsAlias>table_21</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CZAS_ZAMOWIENIA" id="FA8CFEBE-1085-1E26-D3AC-DC22B746F492">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 16:53:00 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_dostawy_zamowienia" id="B64BE4C2-C574-4B4A-E2CB-836EBF5C2DDA">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 16:53:00 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Godzina_dostawy_zamowienia" id="42E14960-EF3C-7480-B84C-32CADAA80CDE">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 16:53:00 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_zakupu_zamowienia" id="DE059FD8-D678-33CE-D6F2-A8C41B1F428D">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 16:53:00 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Godzina_zakupu_zamowienia" id="75919EFE-E883-EC3F-835B-47070C9EAE61">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 16:53:00 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZAMOWIENIA_ID_FK" id="0D332271-9F18-5B1F-4EDB-3A37485E078E">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 16:53:12 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E64570F1-91E2-97CF-5108-57CCC85B04AC" referredColumn="49E99A71-0B47-13B5-3E7A-6EF397984900"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C940352B-57E7-1758-E1CD-9C99E15F74B8" name="CZAS_ZAMOWIENIA_PK">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 16:53:00 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA8CFEBE-1085-1E26-D3AC-DC22B746F492"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E505128A-F89E-FC98-AD21-F88DF8207305" name="czas_zam_zam_fk">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 16:53:12 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D332271-9F18-5B1F-4EDB-3A37485E078E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

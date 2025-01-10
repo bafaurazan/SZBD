@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2AE433CA-8449-6433-6AA2-7C1EE21F6C27" name="MATERIALY">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 12:25:13 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_przed_normalizacja</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_MATERIALU" id="655ABA57-DA63-8E69-A9FA-E431C1DD7F9B">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 12:26:53 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_przed_normalizacja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwa_materialu" id="912F31C8-CEB8-0292-88B7-8DDCF41D044C">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 12:26:53 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_przed_normalizacja</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ilosc_materialow" id="E11E4C6B-748F-7BAF-6AE7-BAB9A9A6A659">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 12:26:53 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_przed_normalizacja</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zamowienie" id="632B694B-18AC-CC82-9E30-239E391CABC4">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 12:26:53 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_przed_normalizacja</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zabawy" id="D0503A37-230F-C556-9AEE-8218ADA8D7F6">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 12:26:53 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_przed_normalizacja</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="863FA597-A28B-606B-A0EA-066EEB8D81E5" name="MATERIALY_PK">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 12:26:53 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_przed_normalizacja</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="655ABA57-DA63-8E69-A9FA-E431C1DD7F9B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A8434DD5-6EB9-4AFA-3E00-30716B9B72CA" name="GRUPY_MATERIALOW">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 21:03:43 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<ordsAlias>table_28</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_GRUPY_MATERIALOW" id="5B6A0A17-6759-BE76-A58F-D13034EC9217">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 21:06:07 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwa_grupy_materialow" id="A373017F-9D5C-4A7F-5ABA-574FE73FEE72">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 21:06:07 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZAMOWIENIA_ID_FK" id="929A9847-EFE0-F7CF-F3E7-F83FF99EE7EF">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 21:06:52 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FDB2133F-71C3-EB2B-8851-3322CD2AAD3A" referredColumn="49E99A71-0B47-13B5-3E7A-6EF397984900"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="52D5A07E-AF05-B5CF-C22E-CB6F49A9AF4D" name="GRUPY_MATERIALOW_PK">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 21:06:07 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B6A0A17-6759-BE76-A58F-D13034EC9217"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CAAB70B9-9671-FD74-9F77-0296009E694C" name="grp_mat_zam_fk">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 21:06:52 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="929A9847-EFE0-F7CF-F3E7-F83FF99EE7EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

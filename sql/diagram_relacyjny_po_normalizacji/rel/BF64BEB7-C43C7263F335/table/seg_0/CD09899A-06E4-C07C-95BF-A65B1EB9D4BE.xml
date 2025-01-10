@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CD09899A-06E4-C07C-95BF-A65B1EB9D4BE" name="PRACOWNIK_NA_ZLECENIE">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 14:09:14 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ZLECENIA_ID_FK" id="B9E48DC4-C59B-6542-AF78-975FE1E9F18A">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 14:09:31 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1F88A267-ADD4-9534-9C7C-B280CCA97DDB" referredColumn="D8B71B3C-9724-ED95-713F-96C3D921202E"/>
+</associations>
+</Column>
+<Column name="PRACOWNICY_ID_FK" id="DBFE1BCB-F8D5-FED4-D447-2D40F5880A5B">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 14:10:06 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D4183425-4813-0169-404B-F88F1E6E8999" referredColumn="EACE80BF-FE21-C581-F2C0-E06CD9252C8A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D7D3F7FD-D723-2C92-4055-BB40FEFA671B" name="zlec_prc_fk">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 14:09:31 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9E48DC4-C59B-6542-AF78-975FE1E9F18A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="421D9241-F428-6957-6C30-E3650DC2F8AE" name="prc_zlec_fk">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 14:10:06 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DBFE1BCB-F8D5-FED4-D447-2D40F5880A5B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="DB6077CD-8ECD-2B1E-5E69-48252425357C" mainViewID="9D814D58-EE21-6CCB-109B-ED8E49CAC418">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 12:41:38 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

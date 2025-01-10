@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A21AAE45-2F20-FB18-EF6C-B731B39CA376" name="Pracownicy_na_zlecenie">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 12:27:02 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_przed_normalizacja</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRACOWNICY_ID_PRACOWNIKA" id="7624FC34-24C6-8F13-9B39-E3367C1BA530">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 12:39:04 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_przed_normalizacja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1BCEC624-393D-AEEE-6936-54D0DFB6A503" referredColumn="E3A19B9F-0AAD-C8D8-A36C-BA90CEC71E4B"/>
+</associations>
+</Column>
+<Column name="ZLECENIA_ID_ZLECENIA" id="D6A49670-2A52-38D6-7CA9-DC6227D1A13F">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 12:39:12 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_przed_normalizacja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="485C8211-CDB1-2CBB-0DD0-BFF980D89603" referredColumn="25BE570D-7D57-6489-9598-64770A719880"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D48A2B5A-0ADC-6E2B-4575-68D8026FFF9C" name="Pracownicy_na_zlecenie_PRACOWNICY_FK">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 12:39:04 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_przed_normalizacja</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7624FC34-24C6-8F13-9B39-E3367C1BA530"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F1A2E0A4-9D8D-9D64-C52F-A91D5385589A" name="Pracownicy_na_zlecenie_ZLECENIA_FK">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 12:39:12 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_przed_normalizacja</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6A49670-2A52-38D6-7CA9-DC6227D1A13F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D7FBF418-FDE2-836B-FFE6-42FEF0093B3F" name="LOKALIZACJA">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-10 02:55:06 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<ordsAlias>table_30</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_LOKALIZACJA" id="2FF90595-451E-3B72-5525-B7A0AC0AA2A6">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-10 02:55:39 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Uwagi_do_lokalizacji" id="CB1BC9C9-1A88-DD06-AB71-7A10A0AA6AD6">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-10 02:55:39 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WYDARZENIE_ID_WYDARZENIE" id="F50A5AE9-6832-A312-D2D3-40D4B598CC14">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-10 02:55:53 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F5D95F09-F6A7-EBC0-69DE-1F2571493557" referredColumn="F25BC7F8-5C94-11F5-FB5F-3E58E4D9A019"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5BAD2FE5-01E2-5AF8-F138-59629C0591A4" name="LOKALIZACJA_PK">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-10 02:55:39 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2FF90595-451E-3B72-5525-B7A0AC0AA2A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9A57F633-B451-9D32-30D6-634FB9E808AA" name="lok_wyd_fk">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-10 02:55:53 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F50A5AE9-6832-A312-D2D3-40D4B598CC14"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

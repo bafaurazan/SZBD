@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B49F7B4C-2CDC-8E47-87B8-0BDEE4732D7C" containerWithKeyObject="19F4D762-E43F-C941-046F-912FC7154ABC" localFKIndex="0359F9E5-8D62-A0FA-FB39-5B78234C5D17" name="utw_gat_fk">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 16:58:43 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<referredTableLongName>GATUNEK_MUZYCZNY</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6DB7DF63-9913-D215-AF2B-006A954BBD8C</referredTableID>
+<keyObject>964C52B8-B4BD-85AC-5A33-54B3F774D5EC</keyObject>
+<referredKeyID>964C52B8-B4BD-85AC-5A33-54B3F774D5EC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_GATUNEK_MUZYCZNY</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

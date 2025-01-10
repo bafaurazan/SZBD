@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1BCEC624-393D-AEEE-6936-54D0DFB6A503" containerWithKeyObject="A21AAE45-2F20-FB18-EF6C-B731B39CA376" localFKIndex="D48A2B5A-0ADC-6E2B-4575-68D8026FFF9C" name="Pracownicy_na_zlecenie_PRACOWNICY_FK">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 12:39:04 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_przed_normalizacja</ownerDesignName>
+<referredTableLongName>PRACOWNICY</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>79FC0D31-AD7F-3228-4CD1-D3D80A1F97A9</referredTableID>
+<keyObject>EDF4A48C-7B18-28C2-125B-285BE551DD7B</keyObject>
+<referredKeyID>EDF4A48C-7B18-28C2-125B-285BE551DD7B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_PRACOWNIKA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E75B75A8-0B79-B36E-1088-3D20F2EC6608" name="INFORMACJA_ZWROTNA">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 13:36:02 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_INFORMACJA_ZWROTNA" id="CCD30D63-1306-C225-0EBA-E7BD7A2A160E">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 13:36:59 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cena_koncowa" id="7DA0030F-C6EC-AEF2-8850-6D6CF441FD7A">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 13:36:59 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>7</dataTypeScale>
+<ownDataTypeParameters>,2,7</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="O_ile_przedluzone" id="6BD131A7-C5C4-F016-9F5C-94BEDD157DDB">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 13:36:59 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WYDARZENIE_ID_FK" id="6BF95810-1660-CCE5-D127-7BDB1B666BD7">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 16:45:43 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7410D1EC-BE69-A0FF-DF19-556CBE86466B" referredColumn="F25BC7F8-5C94-11F5-FB5F-3E58E4D9A019"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="04E2003E-B163-930B-EF4F-7E6D581497DF" name="INFORMACJA_ZWROTNA_PK">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 13:36:59 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CCD30D63-1306-C225-0EBA-E7BD7A2A160E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FD5A7271-1CBE-4764-6E57-17F61C6CA47B" name="inf_zw_wyd_fk">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 16:45:43 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BF95810-1660-CCE5-D127-7BDB1B666BD7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

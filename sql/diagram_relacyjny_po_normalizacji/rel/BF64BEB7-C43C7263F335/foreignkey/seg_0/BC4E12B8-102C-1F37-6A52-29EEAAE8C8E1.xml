@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BC4E12B8-102C-1F37-6A52-29EEAAE8C8E1" containerWithKeyObject="6DB7DF63-9913-D215-AF2B-006A954BBD8C" localFKIndex="38570822-B37E-B1F8-7C62-235596CB8073" name="gat_muz_grp_fk">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 16:58:40 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<referredTableLongName>GRUPY_WIEKOWE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F3806175-6356-76E8-6889-2DEAAF179006</referredTableID>
+<keyObject>C7F6A847-5266-195A-1AB8-0125A61A21B3</keyObject>
+<referredKeyID>C7F6A847-5266-195A-1AB8-0125A61A21B3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_GRUPY_WIEKOWE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
