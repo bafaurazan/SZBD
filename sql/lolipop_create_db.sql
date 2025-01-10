@@ -4,6 +4,7 @@
     Designed for use with Oracle SQL-compliant database systems.
 */
 
+SET DEFINE OFF
 
 
 CREATE TABLE adresy (

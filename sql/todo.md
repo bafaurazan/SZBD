@@ -18,7 +18,7 @@ Zabezpieczenia/ograniczenia tabel (Tworzenie tabel w SQL chatgpt chat + zmiany s
 
 # To-Do:
 - zmienić układ daty w całej bazie
-
+- ogólne statystyki co do wszystkich tabel (ile jest tabel w ogóle itd)
 
 
 
