@@ -1,5 +1,267 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="15.1">
   <help_text/>
-  <zoom_level>10</zoom_level>
+  <zoom_level>9</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>702</x>
+      <y>81</y>
+      <w>315</w>
+      <h>234</h>
+    </coordinates>
+    <panel_attributes>Oferty
+--
+- ID_oferty: Integer
+- Typ_pakietu: String
+- Cena_pakietu: Float
+- Czas_trwania_oferty: Time
+- Opis_oferty: String
+--
++ Dodaj oferte(ID_oferty: Integer, Typ_pakietu: String,
+Cena_pakietu: Float, Czas_trwania_oferty: Time,
+Opis_oferty: String) Bolean
++ Edytuj oferte(ID_oferty: Integer, Typ_pakietu: String,
+Cena_pakietu: Float, Czas_trwania_oferty: Time,
+Opis_oferty: String) Bolean
++ Generuj cennik ofert(ID_oferty: Integer) String
++ Usun oferte(ID_oferty: Integer) Void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>81</x>
+      <y>603</y>
+      <w>315</w>
+      <h>297</h>
+    </coordinates>
+    <panel_attributes>Pracownik
+--
+- ID_pracownika: Integer
+- Nazwa_pracownika: String
+- Kontakt_do_pracownika: String
+- Adres_pracownika: String
+--
++ Dodaj pracownika(ID_pracownika: Integer,
+Nazwa_pracownika: String,
+Kontakt_do_pracownika: String,
+Adres_pracownika: String) Bolean
++ Zarzadzaj harmonogramem(
+ID_pracownika: Integer) String
++ Edytuj dane pracownika(ID_pracownika: Integer,
+Nazwa_pracownika: String,
+Kontakt_do_pracownika: String,
+Adres_pracownika: String) Bolean
++ Raport pracy pracownika(
+ID_pracownika: Integer) String
++ Usun pracownika(ID_pracownika: Integer) Void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>72</x>
+      <y>9</y>
+      <w>387</w>
+      <h>225</h>
+    </coordinates>
+    <panel_attributes>Klient
+--
+- ID_klienta: Integer
+- Nazwa_klienta: String
+- Kontakt_do_klienta: String
+- Adres_klienta: String
+--
++ Dodaj klienta(ID_klienta: Integer,
+Nazwa_klienta: String, - Kontakt_do_klienta: String,
+Adres_klienta: String) Bolean
++ Edytuj dane klienta(ID_klienta: Integer,
+Nazwa_klienta: String, Kontakt_do_klienta: String,
+Adres_klienta: String) Bolean
++ Znajdz klienta(ID_klienta: Integer) String
++ Usun klienta(ID_klienta: Integer) Void
++ Historia zlecen klienta(ID_klienta: Integer) String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>369</x>
+      <y>252</y>
+      <w>324</w>
+      <h>279</h>
+    </coordinates>
+    <panel_attributes>Zlecenia
+--
+- ID_zlecenia: Integer
+- Wstepna_cena: Float
+- Data_wystawienia_zlecenia: Date
+- Status_zlecenia: String
+- Wydarzenie
+--
++ Dodaj zlecenie(ID_zlecenia: Integer,
+Wstepna_cena: Float,
+Data_wystawienia_zlecenia: Date,
+Status_zlecenia: String) Bolean
++ Edytuj zlecenie(ID_zlecenia: Integer,
+Wstepna_cena: Float,
+Data_wystawienia_zlecenia: Date,
+Status_zlecenia: String) Bolean
++ Generuj harmonogram zlecen(
+ID_zlecenia: Integer) String
++ Raport realizacji zlecenia(ID_zlecenia: Integer) String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>675</x>
+      <y>657</y>
+      <w>306</w>
+      <h>243</h>
+    </coordinates>
+    <panel_attributes>Materialy
+--
+- ID_materialu: Integer
+- Nazwa_materialu: String
+- Ilosc_materialow: Integer
+- Zamowienie: String
+- Zabawy: String
+--
++ Dodaj material(ID_materialu: Integer,
+Nazwa_materialu: String, Ilosc_materialow: Integer,
+Zamowienie: String, Zabawy: String) Bolean
++ Aktualizuj stan materialow(ID_materialu: Integer,
+Ilosc_materialow: Integer) Bolean
++ Znajdz material(ID_materialu: Integer) String
++ Generuj raport stanu materialow(
+ID_materialu: Integer) String
++ Usun material(ID_materialu: Integer) Void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>99</x>
+      <y>324</y>
+      <w>261</w>
+      <h>153</h>
+    </coordinates>
+    <panel_attributes>Pracownik_na_zlecenie
+--
+
+--
++ Przypisz pracownika(ID_zlecenia: Integer,
+ID_pracownika: Integer) Bolean
++ Usun przypisanie(ID_zlecenia: Integer,
+ID_pracownika: Integer) Void
++ Generuj raport z przypisan(
+ID_zlecenia: Integer) String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>711</x>
+      <y>432</y>
+      <w>288</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>Materialy_na_oferte
+--
+
+--
++ Dodaj material do oferty(ID_materialu: Integer,
+ID_oferty: Integer) Bolean
++ Usun material z oferty(ID_materialu: Integer,
+ID_oferty: Integer) void
++ Generuj raport z materialow w ofertach(
+ID_oferty: Integer) String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>225</x>
+      <y>468</y>
+      <w>108</w>
+      <h>153</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..n zlecenia
+m2=1 pracownik
+Przypisanie &gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;150.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>171</x>
+      <y>261</y>
+      <w>216</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1..n pracownik
+m2=1 zlecenia
+&lt; Przypisanie</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;20.0;220.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>747</x>
+      <y>567</y>
+      <w>90</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..n
+m2=1
+Przypisanie</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>729</x>
+      <y>306</y>
+      <w>108</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1..n materialy
+m2=1 oferta
+Przypisanie &gt;</panel_attributes>
+    <additional_attributes>10.0;140.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>450</x>
+      <y>162</y>
+      <w>144</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;..
+m1=0..n 
+m2=1 klient
+Zamawia &gt;</panel_attributes>
+    <additional_attributes>120.0;100.0;120.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>603</x>
+      <y>81</y>
+      <w>117</w>
+      <h>189</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=0..n zlecenia
+m2=1 oferta
+Zawiera sie</panel_attributes>
+    <additional_attributes>10.0;190.0;10.0;10.0;110.0;10.0</additional_attributes>
+  </element>
 </diagram>
