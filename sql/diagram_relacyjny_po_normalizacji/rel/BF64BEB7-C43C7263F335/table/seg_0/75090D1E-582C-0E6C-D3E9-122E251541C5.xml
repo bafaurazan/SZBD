@@ -18,7 +18,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Adres_do_pracownika" id="16BE30B1-4A3B-C3CF-0A09-CA347B1861E1">
+<Column name="Adres_email_pracownika" id="16BE30B1-4A3B-C3CF-0A09-CA347B1861E1">
 <createdBy>u169828</createdBy>
 <createdTime>2025-01-09 14:18:18 UTC</createdTime>
 <ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
@@ -30,7 +30,7 @@
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Numer_telefonu_klienta" id="E7623950-C9AD-B539-8067-833752B16CD4">
+<Column name="Numer_telefonu_pracownika" id="E7623950-C9AD-B539-8067-833752B16CD4">
 <createdBy>u169828</createdBy>
 <createdTime>2025-01-09 14:18:18 UTC</createdTime>
 <ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>

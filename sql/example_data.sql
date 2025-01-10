@@ -15,16 +15,16 @@ SELECT * FROM DUAL;
 
 -- Przykładowe dane do tabeli pracownicy
 INSERT ALL
-    INTO pracownicy (id_pracownicy, imie_pracownika, nazwisko_klienta) VALUES (1, 'Adam', 'Nowicki')
-    INTO pracownicy (id_pracownicy, imie_pracownika, nazwisko_klienta) VALUES (2, 'Beata', 'Szymańska')
-    INTO pracownicy (id_pracownicy, imie_pracownika, nazwisko_klienta) VALUES (3, 'Krzysztof', 'Wiśniewski')
-    INTO pracownicy (id_pracownicy, imie_pracownika, nazwisko_klienta) VALUES (4, 'Dorota', 'Kwiatkowska')
-    INTO pracownicy (id_pracownicy, imie_pracownika, nazwisko_klienta) VALUES (5, 'Paweł', 'Jabłoński')
-    INTO pracownicy (id_pracownicy, imie_pracownika, nazwisko_klienta) VALUES (6, 'Zofia', 'Adamska')
-    INTO pracownicy (id_pracownicy, imie_pracownika, nazwisko_klienta) VALUES (7, 'Wojciech', 'Pawlak')
-    INTO pracownicy (id_pracownicy, imie_pracownika, nazwisko_klienta) VALUES (8, 'Magdalena', 'Sobczak')
-    INTO pracownicy (id_pracownicy, imie_pracownika, nazwisko_klienta) VALUES (9, 'Grzegorz', 'Kubiak')
-    INTO pracownicy (id_pracownicy, imie_pracownika, nazwisko_klienta) VALUES (10, 'Agnieszka', 'Chmielewska')
+    INTO pracownicy (id_pracownicy, imie_pracownika, nazwisko_pracownika) VALUES (1, 'Adam', 'Nowicki')
+    INTO pracownicy (id_pracownicy, imie_pracownika, nazwisko_pracownika) VALUES (2, 'Beata', 'Szymańska')
+    INTO pracownicy (id_pracownicy, imie_pracownika, nazwisko_pracownika) VALUES (3, 'Krzysztof', 'Wiśniewski')
+    INTO pracownicy (id_pracownicy, imie_pracownika, nazwisko_pracownika) VALUES (4, 'Dorota', 'Kwiatkowska')
+    INTO pracownicy (id_pracownicy, imie_pracownika, nazwisko_pracownika) VALUES (5, 'Paweł', 'Jabłoński')
+    INTO pracownicy (id_pracownicy, imie_pracownika, nazwisko_pracownika) VALUES (6, 'Zofia', 'Adamska')
+    INTO pracownicy (id_pracownicy, imie_pracownika, nazwisko_pracownika) VALUES (7, 'Wojciech', 'Pawlak')
+    INTO pracownicy (id_pracownicy, imie_pracownika, nazwisko_pracownika) VALUES (8, 'Magdalena', 'Sobczak')
+    INTO pracownicy (id_pracownicy, imie_pracownika, nazwisko_pracownika) VALUES (9, 'Grzegorz', 'Kubiak')
+    INTO pracownicy (id_pracownicy, imie_pracownika, nazwisko_pracownika) VALUES (10, 'Agnieszka', 'Chmielewska')
 SELECT * FROM DUAL;
 
 
@@ -128,21 +128,20 @@ SELECT * FROM DUAL;
 
 
 
-
-
 -- Przykładowe dane do tabeli czas_zamowienia
 INSERT ALL
-    INTO czas_zamowienia (id_czas_zamowienia, data_dostawy_zamowienia, godzina_dostawy_zamowienia, data_zakupu_zamowienia, godzina_zakupu_zamowienia, zamowienia_id_fk) VALUES (1, TO_DATE('2025-01-15', 'YYYY-MM-DD'), TO_DATE('10:00:00', 'HH24:MI:SS'), TO_DATE('2025-01-10', 'YYYY-MM-DD'), TO_DATE('14:30:00', 'HH24:MI:SS'), 1)
-    INTO czas_zamowienia (id_czas_zamowienia, data_dostawy_zamowienia, godzina_dostawy_zamowienia, data_zakupu_zamowienia, godzina_zakupu_zamowienia, zamowienia_id_fk) VALUES (2, TO_DATE('2025-01-16', 'YYYY-MM-DD'), TO_DATE('11:00:00', 'HH24:MI:SS'), TO_DATE('2025-01-11', 'YYYY-MM-DD'), TO_DATE('15:00:00', 'HH24:MI:SS'), 2)
-    INTO czas_zamowienia (id_czas_zamowienia, data_dostawy_zamowienia, godzina_dostawy_zamowienia, data_zakupu_zamowienia, godzina_zakupu_zamowienia, zamowienia_id_fk) VALUES (3, TO_DATE('2025-01-17', 'YYYY-MM-DD'), TO_DATE('12:00:00', 'HH24:MI:SS'), TO_DATE('2025-01-12', 'YYYY-MM-DD'), TO_DATE('16:00:00', 'HH24:MI:SS'), 3)
-    INTO czas_zamowienia (id_czas_zamowienia, data_dostawy_zamowienia, godzina_dostawy_zamowienia, data_zakupu_zamowienia, godzina_zakupu_zamowienia, zamowienia_id_fk) VALUES (4, TO_DATE('2025-01-18', 'YYYY-MM-DD'), TO_DATE('13:00:00', 'HH24:MI:SS'), TO_DATE('2025-01-13', 'YYYY-MM-DD'), TO_DATE('17:00:00', 'HH24:MI:SS'), 4)
-    INTO czas_zamowienia (id_czas_zamowienia, data_dostawy_zamowienia, godzina_dostawy_zamowienia, data_zakupu_zamowienia, godzina_zakupu_zamowienia, zamowienia_id_fk) VALUES (5, TO_DATE('2025-01-19', 'YYYY-MM-DD'), TO_DATE('14:00:00', 'HH24:MI:SS'), TO_DATE('2025-01-14', 'YYYY-MM-DD'), TO_DATE('18:00:00', 'HH24:MI:SS'), 5)
-    INTO czas_zamowienia (id_czas_zamowienia, data_dostawy_zamowienia, godzina_dostawy_zamowienia, data_zakupu_zamowienia, godzina_zakupu_zamowienia, zamowienia_id_fk) VALUES (6, TO_DATE('2025-01-20', 'YYYY-MM-DD'), TO_DATE('15:00:00', 'HH24:MI:SS'), TO_DATE('2025-01-15', 'YYYY-MM-DD'), TO_DATE('19:00:00', 'HH24:MI:SS'), 6)
-    INTO czas_zamowienia (id_czas_zamowienia, data_dostawy_zamowienia, godzina_dostawy_zamowienia, data_zakupu_zamowienia, godzina_zakupu_zamowienia, zamowienia_id_fk) VALUES (7, TO_DATE('2025-01-21', 'YYYY-MM-DD'), TO_DATE('16:00:00', 'HH24:MI:SS'), TO_DATE('2025-01-16', 'YYYY-MM-DD'), TO_DATE('20:00:00', 'HH24:MI:SS'), 7)
-    INTO czas_zamowienia (id_czas_zamowienia, data_dostawy_zamowienia, godzina_dostawy_zamowienia, data_zakupu_zamowienia, godzina_zakupu_zamowienia, zamowienia_id_fk) VALUES (8, TO_DATE('2025-01-22', 'YYYY-MM-DD'), TO_DATE('17:00:00', 'HH24:MI:SS'), TO_DATE('2025-01-17', 'YYYY-MM-DD'), TO_DATE('21:00:00', 'HH24:MI:SS'), 8)
-    INTO czas_zamowienia (id_czas_zamowienia, data_dostawy_zamowienia, godzina_dostawy_zamowienia, data_zakupu_zamowienia, godzina_zakupu_zamowienia, zamowienia_id_fk) VALUES (9, TO_DATE('2025-01-23', 'YYYY-MM-DD'), TO_DATE('18:00:00', 'HH24:MI:SS'), TO_DATE('2025-01-18', 'YYYY-MM-DD'), TO_DATE('22:00:00', 'HH24:MI:SS'), 9)
-    INTO czas_zamowienia (id_czas_zamowienia, data_dostawy_zamowienia, godzina_dostawy_zamowienia, data_zakupu_zamowienia, godzina_zakupu_zamowienia, zamowienia_id_fk) VALUES (10, TO_DATE('2025-01-24', 'YYYY-MM-DD'), TO_DATE('19:00:00', 'HH24:MI:SS'), TO_DATE('2025-01-19', 'YYYY-MM-DD'), TO_DATE('23:00:00', 'HH24:MI:SS'), 10)
+    INTO czas_zamowienia (id_czas_zamowienia, data_dostawy_zamowienia, godzina_dostawy_zamowienia, data_zakupu_zamowienia, godzina_zakupu_zamowienia, zamowienia_id_fk) VALUES (1, TO_DATE('2025-01-15', 'YYYY-MM-DD'), INTERVAL '45' SECOND, TO_DATE('2025-01-10', 'YYYY-MM-DD'), INTERVAL '30' SECOND, 1)
+    INTO czas_zamowienia (id_czas_zamowienia, data_dostawy_zamowienia, godzina_dostawy_zamowienia, data_zakupu_zamowienia, godzina_zakupu_zamowienia, zamowienia_id_fk) VALUES (2, TO_DATE('2025-01-16', 'YYYY-MM-DD'),INTERVAL '45' SECOND, TO_DATE('2025-01-11', 'YYYY-MM-DD'), INTERVAL '30' SECOND, 2)
+    INTO czas_zamowienia (id_czas_zamowienia, data_dostawy_zamowienia, godzina_dostawy_zamowienia, data_zakupu_zamowienia, godzina_zakupu_zamowienia, zamowienia_id_fk) VALUES (3, TO_DATE('2025-01-17', 'YYYY-MM-DD'),INTERVAL '45' SECOND, TO_DATE('2025-01-12', 'YYYY-MM-DD'), INTERVAL '30' SECOND, 3)
+    INTO czas_zamowienia (id_czas_zamowienia, data_dostawy_zamowienia, godzina_dostawy_zamowienia, data_zakupu_zamowienia, godzina_zakupu_zamowienia, zamowienia_id_fk) VALUES (4, TO_DATE('2025-01-18', 'YYYY-MM-DD'),INTERVAL '45' SECOND, TO_DATE('2025-01-13', 'YYYY-MM-DD'), INTERVAL '30' SECOND, 4)
+    INTO czas_zamowienia (id_czas_zamowienia, data_dostawy_zamowienia, godzina_dostawy_zamowienia, data_zakupu_zamowienia, godzina_zakupu_zamowienia, zamowienia_id_fk) VALUES (5, TO_DATE('2025-01-19', 'YYYY-MM-DD'),INTERVAL '45' SECOND, TO_DATE('2025-01-14', 'YYYY-MM-DD'), INTERVAL '30' SECOND, 5)
+    INTO czas_zamowienia (id_czas_zamowienia, data_dostawy_zamowienia, godzina_dostawy_zamowienia, data_zakupu_zamowienia, godzina_zakupu_zamowienia, zamowienia_id_fk) VALUES (6, TO_DATE('2025-01-20', 'YYYY-MM-DD'),INTERVAL '45' SECOND, TO_DATE('2025-01-15', 'YYYY-MM-DD'), INTERVAL '30' SECOND, 6)
+    INTO czas_zamowienia (id_czas_zamowienia, data_dostawy_zamowienia, godzina_dostawy_zamowienia, data_zakupu_zamowienia, godzina_zakupu_zamowienia, zamowienia_id_fk) VALUES (7, TO_DATE('2025-01-21', 'YYYY-MM-DD'),INTERVAL '45' SECOND, TO_DATE('2025-01-16', 'YYYY-MM-DD'), INTERVAL '30' SECOND, 7)
+    INTO czas_zamowienia (id_czas_zamowienia, data_dostawy_zamowienia, godzina_dostawy_zamowienia, data_zakupu_zamowienia, godzina_zakupu_zamowienia, zamowienia_id_fk) VALUES (8, TO_DATE('2025-01-22', 'YYYY-MM-DD'),INTERVAL '45' SECOND, TO_DATE('2025-01-17', 'YYYY-MM-DD'), INTERVAL '30' SECOND, 8)
+    INTO czas_zamowienia (id_czas_zamowienia, data_dostawy_zamowienia, godzina_dostawy_zamowienia, data_zakupu_zamowienia, godzina_zakupu_zamowienia, zamowienia_id_fk) VALUES (9, TO_DATE('2025-01-23', 'YYYY-MM-DD'),INTERVAL '45' SECOND, TO_DATE('2025-01-18', 'YYYY-MM-DD'), INTERVAL '30' SECOND, 9)
+    INTO czas_zamowienia (id_czas_zamowienia, data_dostawy_zamowienia, godzina_dostawy_zamowienia, data_zakupu_zamowienia, godzina_zakupu_zamowienia, zamowienia_id_fk) VALUES (10, TO_DATE('2025-01-24', 'YYYY-MM-DD'), INTERVAL '45' SECOND , TO_DATE('2025-01-19', 'YYYY-MM-DD'), INTERVAL '30' SECOND, 10)
 SELECT * FROM DUAL;
+
 
 
 -- Przykładowe dane do tabeli grupy_materialow

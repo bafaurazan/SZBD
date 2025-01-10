@@ -30,7 +30,7 @@
 <ownDataTypeParameters>35 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Nazwisko_klienta" id="8225CFA4-3BDF-1B25-4DFA-C3870AFCC4B1">
+<Column name="Nazwisko_pracownika" id="8225CFA4-3BDF-1B25-4DFA-C3870AFCC4B1">
 <createdBy>u169828</createdBy>
 <createdTime>2025-01-09 13:01:02 UTC</createdTime>
 <ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
