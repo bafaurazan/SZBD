@@ -1,3 +1,10 @@
+/*
+    This script creates a new SQL database user and assigns necessary privileges for database development and testing.
+    
+    Designed for use with Oracle SQL-compliant database systems.
+*/
+
+
 CREATE USER c##lolipop IDENTIFIED BY password DEFAULT TABLESPACE users TEMPORARY TABLESPACE temp QUOTA UNLIMITED ON users;
 GRANT CONNECT TO c##lolipop;
 GRANT RESOURCE TO c##lolipop;

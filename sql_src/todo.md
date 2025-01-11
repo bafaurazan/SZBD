@@ -39,3 +39,16 @@ Zabezpieczenia/ograniczenia tabel (Tworzenie tabel w SQL chatgpt chat + zmiany s
 # PROJEKT LOGICZNY (PDF) TO-DO:
 - [X] Propozycja operacji na danych - przygotowanie propozycji min. 10 kwerend do zaproponowanej bazy danych w oparciu o notację operacji algebry relacyjnej
 - [X] Opis procesu normalizacji
+
+
+
+
+
+DO RELATION ALGEBRA 7
+-- Wynik tej kwerendy nie posiada żadnych rekordów, ponieważ wszystkie materiały wprowadzone do bazy danych spełniają kryteria wymaganej ilości
+-- Kwerenda udowadniająca, której wynikiem są dane materiałów, ich ilość dostępna oraz wymagana oraz grupa do której materiały należą
+
+
+DO DB_TESTS 4
+-- Wynik tej kwerendy nie posiada żadnych rekordów, ponieważ wszyscy klienci mają przypisajne adresy
+-- Kwerenda udowadniająca, której wynikiem są dane klientów oraz przypisane do nich adresy

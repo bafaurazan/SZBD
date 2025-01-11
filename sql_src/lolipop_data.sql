@@ -1,12 +1,18 @@
 /*
+    This script contains SQL commands to populate tables with sample data for Lolipop Database system. 
 
+    The script is divided into sections based on the data being inserted:
+    1. Main tables - Populates primary entities
+    2. Tables with foreign keys - Populates relationships between entities
+
+    Each section uses the `INSERT ALL` syntax to batch insert data into tables, ensuring database consistency and easy replication of the environment.
+
+    Designed for use with Oracle SQL-compliant database systems.
 */
 
+-- MAIN TABLES
 
--- TABELE GŁÓWNE
-
-
--- Dane do tabeli klienci
+-- Data for the klienci table
 INSERT ALL
     INTO klienci (id_klienci, imie_klienta, nazwisko_klienta)
         VALUES (1, 'Anna', 'Kowalska')
@@ -31,7 +37,7 @@ INSERT ALL
 SELECT * FROM dual;
 
 
--- Dane do tabeli pracownicy
+-- Data for the pracownicy table
 INSERT ALL
     INTO pracownicy (id_pracownicy, imie_pracownika, nazwisko_pracownika)
         VALUES (1, 'Adam', 'Kowalski')
@@ -56,7 +62,7 @@ INSERT ALL
 SELECT * FROM dual;
 
 
--- Dane do tabeli adresy
+-- Data for the adresy table
 INSERT ALL
     INTO adresy (id_adresy, ulica, numer_budynku, numer_mieszkania)
         VALUES (1, 'Kwiatowa', 15, 1)
@@ -81,7 +87,7 @@ INSERT ALL
 SELECT * FROM dual;
 
 
--- Dane do tabeli miejscowosci
+-- Data for the miejscowosci table
 INSERT ALL
     INTO miejscowosci (id_miejscowosci, nazwa_miejscowosci, kod_pocztowy)
         VALUES (1, 'Warszawa', '00-001')
@@ -106,7 +112,7 @@ INSERT ALL
 SELECT * FROM dual;
 
 
--- Dane do tabeli oferty
+-- Data for the oferty table
 INSERT ALL
     INTO oferty (id_oferty, typ_pakietu_oferty, cena_pakietu, czas_trwania_oferty, opis_oferty) 
         VALUES (1, 'Pakiet Słoneczny', 450.00, INTERVAL '02:00:00' HOUR TO SECOND, '2 godziny, do 20 dzieci, 1 animator')
@@ -121,7 +127,7 @@ INSERT ALL
 SELECT * FROM dual;
 
 
--- Dane do tabeli zamowienia
+-- Data for the zamowienia table
 INSERT ALL
     INTO zamowienia (id_zamowienia, osoba_do_odbioru_zamowienia, sposob_dostawy_zamowienia, osoba_zamawiajaca) 
         VALUES (1, 'Anna Kowalska', 'Kurier', 'Jan Kowalski')
@@ -145,11 +151,9 @@ INSERT ALL
         VALUES (10, 'Rafał Pawlak', 'Kurier', 'Katarzyna Pawlak')
 SELECT * FROM dual;
 
+-- TABLES WITH FOREIGN KEYS
 
--- TABELE Z KLUCZEM OBCYM
-
-
--- Dane do tabeli adresy_klientow
+-- Data for the adresy_klientow table
 INSERT ALL
     INTO adresy_klientow (klienci_id_fk, adresy_id_fk, miejscowosci_id_fk)
         VALUES (1, 1, 1)
@@ -174,7 +178,7 @@ INSERT ALL
 SELECT * FROM dual;
 
 
--- Dane do tabeli adresy_pracownikow
+-- Data for the adresy_pracownikow table
 INSERT ALL
     INTO adresy_pracownikow (adresy_id_fk, pracownicy_id_fk, miejscowosci_id_fk)
         VALUES (1, 1, 1)
@@ -199,7 +203,7 @@ INSERT ALL
 SELECT * FROM dual;
 
 
--- Dane do tabeli czas_zamowienia
+-- Data for the czas_zamowienia table
 INSERT ALL
     INTO czas_zamowienia (id_czas_zamowienia, data_dostawy_zamowienia, godzina_dostawy_zamowienia, data_zakupu_zamowienia, godzina_zakupu_zamowienia, zamowienia_id_fk) 
         VALUES (1, DATE '2025-01-12', INTERVAL '10:00:00' HOUR TO SECOND, DATE '2025-01-10', INTERVAL '14:00:00' HOUR TO SECOND, 1)
@@ -224,7 +228,7 @@ INSERT ALL
 SELECT * FROM dual;
 
 
--- Dane do tabeli grupy_materialow
+-- Data for the grupy_materialow table
 INSERT ALL
     INTO grupy_materialow (id_grupy_materialow, nazwa_grupy_materialow, zamowienia_id_fk)
         VALUES (1, 'Balony i Dekoracje', 1)
@@ -249,7 +253,7 @@ INSERT ALL
 SELECT * FROM dual;
 
 
--- Dane do tabeli materialy
+-- Data for the materialy table
 INSERT ALL
     INTO materialy (id_materialu, nazwa_materialu, dostepna_ilosc_materialow, wymagana_ilosc_materialow, grupy_materialow_id_fk) 
         VALUES (1, 'Balony', 100, 50, 1)
@@ -274,7 +278,7 @@ INSERT ALL
 SELECT * FROM dual;
 
 
--- Dane do tabeli uzyte_materialy
+-- Data for the uzyte_materialy table
 INSERT ALL
     INTO uzyte_materialy (oferty_id_fk, materialy_id_fk) 
         VALUES (1, 1)
@@ -299,7 +303,7 @@ INSERT ALL
 SELECT * FROM dual;
 
 
--- Dane do tabeli zabawy
+-- Data for the zabawy table
 INSERT ALL
     INTO zabawy (id_zabawy, nazwa_zabawy, opis_zabawy, ilosc_animatorow_do_zabawy, ilosc_uczestnikow_do_zabawy, materialy_id_fk) 
         VALUES (1, 'Gry ruchowe', 'Zabawy wymagające aktywności fizycznej.', 1, 20, 1)
@@ -328,7 +332,7 @@ INSERT ALL
 SELECT * FROM dual;
 
 
--- Dane do tabeli grupy_wiekowe
+-- Data for the grupy_wiekowe table
 INSERT ALL
     INTO grupy_wiekowe (id_grupy_wiekowe, minimalny_wiek_grupy_wiekowej, maksymalny_wiek_grupy_wiekowej, zabawy_id_fk)
         VALUES (1, 1, 3, 2)
@@ -353,7 +357,7 @@ INSERT ALL
 SELECT * FROM dual;
 
 
--- Dane do tabeli gatunek_muzyczny
+-- Data for the gatunek_muzyczny table
 INSERT ALL
     INTO gatunek_muzyczny (id_gatunek_muzyczny, nazwa_gatunku_muzycznego, grupy_wiekowe_id_fk) 
         VALUES (1, 'Pop', 7)
@@ -378,7 +382,7 @@ INSERT ALL
 SELECT * FROM dual;
 
 
--- Dane do tabeli utwor
+-- Data for the utwor table
 INSERT ALL
     INTO utwor (id_utwor, nazwa_utworu, wykonawca_utworu, licencja_utworu, gatunek_muzyczny_id_fk) 
         VALUES (1, 'Shape of You', 'Ed Sheeran', 'Universal', 1)
@@ -403,7 +407,7 @@ INSERT ALL
 SELECT * FROM dual;
 
 
--- Dane dla tabeli kontakt_do_pracownika
+-- Data for the kontakt_do_pracownika table
 INSERT ALL
     INTO kontakt_do_pracownika (id_kontakt_do_pracownika, adres_email_pracownika, numer_telefonu_pracownika, pracownicy_id_fk) 
         VALUES (1, 'anna.kowalska@example.com', '123456789', 1)
@@ -428,7 +432,7 @@ INSERT ALL
 SELECT * FROM dual;
 
 
--- Dane dla tabeli kontakt_do_klienta
+-- Data for the kontakt_do_klienta table
 INSERT ALL
     INTO kontakt_do_klienta (id_kontakt_do_klienta, adres_email_klienta, numer_telefonu_klienta, klienci_id_fk) 
         VALUES (1, 'anna.novak@example.com', '123456789', 1)
@@ -453,7 +457,7 @@ INSERT ALL
 SELECT * FROM dual;
 
 
--- Dane dla tabeli zlecenia
+-- Data for the zlecenia table
 INSERT ALL
     INTO zlecenia (id_zlecenia, wstepna_cena_zlecenia, data_wystawienia_zlecenia, status_zlecenia, klienci_id_fk, oferty_id_fk) 
         VALUES (1, 500.00, DATE '2025-01-10', 'Nowe', 1, 1)
@@ -478,7 +482,7 @@ INSERT ALL
 SELECT * FROM dual;
 
 
--- Dane dla tabeli pracownik_na_zlecenie
+-- Data for the pracownik_na_zlecenie table
 INSERT ALL
     INTO pracownik_na_zlecenie (zlecenia_id_fk, pracownicy_id_fk) 
         VALUES (1, 1)
@@ -503,7 +507,7 @@ INSERT ALL
 SELECT * FROM dual;
 
 
--- Dane dla tabelii wydarzenie
+-- Data for thei wydarzenie table
 INSERT ALL
     INTO wydarzenie (id_wydarzenie, nazwa_wydarzenia, typ_wydarzenia, data_wydarzenia, zlecenia_id_fk) 
         VALUES (1, 'Urodziny Anii', 'Przyjęcie', DATE '2025-02-01', 1)
@@ -528,7 +532,7 @@ INSERT ALL
 SELECT * FROM dual;
 
 
--- Dane dla tabeli lokalizacja
+-- Data for the lokalizacja table
 INSERT ALL
     INTO lokalizacja (id_lokalizacja, uwagi_do_lokalizacji, wydarzenie_id_wydarzenie) 
         VALUES (1, 'Blisko parku', 1)
@@ -553,7 +557,7 @@ INSERT ALL
 SELECT * FROM dual;
 
 
--- Dane dla tabeli adresy_lokalizacji
+-- Data for the adresy_lokalizacji table
 INSERT ALL
     INTO adresy_lokalizacji (lokalizacja_id_fk, adresy_id_fk, miejscowosci_id_fk)
         VALUES (1, 1, 1)
@@ -578,7 +582,7 @@ INSERT ALL
 SELECT * FROM dual;
 
 
--- Dane dla tabeli transport
+-- Data for the transport table
 INSERT ALL
     INTO transport (id_transport, rodzaj_transportu, tablica_rejestracyjna, ilosc_pasazerow_w_transporcie, pojemnosc_transportowa, wydarzenie_id_fk) 
         VALUES (1, 'Autobus', 'WAW12345', 50, 'Duża', 1)
@@ -603,7 +607,7 @@ INSERT ALL
 SELECT * FROM dual;
 
 
--- Dane dla tabeli informacja_zwrotna
+-- Data for the informacja_zwrotna table
 INSERT ALL
     INTO informacja_zwrotna (id_informacja_zwrotna, cena_koncowa, o_ile_przedluzone, wydarzenie_id_fk) 
         VALUES (1, 550.00, INTERVAL '01:00:00' HOUR TO SECOND, 1)
@@ -628,7 +632,7 @@ INSERT ALL
 SELECT * FROM dual;
 
 
--- Dane dla tabeli opinia_klienta
+-- Data for the opinia_klienta table
 INSERT ALL
     INTO opinia_klienta (id_opinia_klienta, skala_opinii_klienta, tresc_opinii_klienta, informacja_zwrotna_id_fk, klienci_id_fk) 
         VALUES (1, '5/5', 'Wszystko było świetnie zorganizowane!', 1, 1)
