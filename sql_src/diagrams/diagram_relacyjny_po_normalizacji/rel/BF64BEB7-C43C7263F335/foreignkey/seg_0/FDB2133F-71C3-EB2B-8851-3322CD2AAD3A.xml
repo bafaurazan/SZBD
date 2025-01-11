@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FDB2133F-71C3-EB2B-8851-3322CD2AAD3A" containerWithKeyObject="A8434DD5-6EB9-4AFA-3E00-30716B9B72CA" localFKIndex="CAAB70B9-9671-FD74-9F77-0296009E694C" name="grp_mat_zam_fk">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 21:06:52 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<referredTableLongName>ZAMOWIENIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>249239FD-06AB-DCA3-91E5-BB4D0B6FEA3B</referredTableID>
+<keyObject>BF33DC6E-482B-5891-C5FC-8F8B7A31CEA5</keyObject>
+<referredKeyID>BF33DC6E-482B-5891-C5FC-8F8B7A31CEA5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_ZAMOWIENIA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

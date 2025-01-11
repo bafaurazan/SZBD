@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="46F62D38-32B4-D25D-C998-25C33AD7BEA2" name="UZYTE_MATERIALY">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 15:15:16 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_przed_normalizacja</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OFERTY_ID_OFERTY" id="B6AA4FBB-67BA-D49B-23C2-B9103C138A13">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 17:02:05 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_przed_normalizacja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5F02DD34-EB3D-8DB6-DFEA-0F857A335270" referredColumn="62EDA910-523A-7D27-A092-0E848ED19FEB"/>
+</associations>
+</Column>
+<Column name="MATERIALY_ID_MATERIALU" id="D3566524-64E2-40E9-0981-12B0E254E58C">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 17:02:08 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_przed_normalizacja</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2AA79DA5-D5C3-BD9F-301D-7B60594E14A2" referredColumn="655ABA57-DA63-8E69-A9FA-E431C1DD7F9B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EEECB5B6-1053-CD56-08A7-496758D0299A" name="UZYTE_MATERIALY_OFERTY_FK">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 17:02:05 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_przed_normalizacja</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6AA4FBB-67BA-D49B-23C2-B9103C138A13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="47214F05-1C62-4C97-6227-9A775A4BB250" name="UZYTE_MATERIALY_MATERIALY_FK">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 17:02:08 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_przed_normalizacja</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3566524-64E2-40E9-0981-12B0E254E58C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

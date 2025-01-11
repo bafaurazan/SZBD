@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="996562C0-8B39-4391-E4F5-29D4C0BF03FE" name="TRANSPORT">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 13:38:37 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TRANSPORT" id="D5A12570-600C-3916-6A90-2FF04728484C">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 13:45:56 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rodzaj_transportu" id="DB2CE482-13FF-FAF1-0282-203FD2AD22AA">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 13:45:56 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tablica_rejestracyjna" id="07FAFA84-EF2F-3FD8-DF86-F8273FFD810E">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 13:45:56 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ilosc_pasazerow_w_transporcie" id="E6C79EEC-CE90-4205-5287-91318F8F5ED9">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 13:45:56 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pojemnosc_transportowa" id="5F8A6F2C-13BF-4B26-07BB-28E1FCF14C62">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 13:45:56 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WYDARZENIE_ID_FK" id="458E7898-9243-A817-BEEE-91B74F15FFA2">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 16:46:31 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A8C05AA5-D809-3916-F8E0-68CD156C5748" referredColumn="F25BC7F8-5C94-11F5-FB5F-3E58E4D9A019"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A39FC324-8B36-3226-211A-477EE473A2E8" name="TRANSPORT_PK">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 13:45:56 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5A12570-600C-3916-6A90-2FF04728484C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="730BDA72-49D3-3065-CBF4-C247F088C700" name="trans_wyd_fk">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 16:46:31 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="458E7898-9243-A817-BEEE-91B74F15FFA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

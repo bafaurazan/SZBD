@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AFEFEC74-8BF9-69C6-A03C-7605C202BA6A" containerWithKeyObject="F3806175-6356-76E8-6889-2DEAAF179006" localFKIndex="170A48E6-414E-E09B-79CE-7849074283B2" name="grp_wie_zab_fk">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 16:58:34 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<referredTableLongName>ZABAWY</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>47CECB0D-74EE-AC52-8950-7AA421711337</referredTableID>
+<keyObject>BB517F2A-3CFD-2514-06CA-C4317DBDBBF0</keyObject>
+<referredKeyID>BB517F2A-3CFD-2514-06CA-C4317DBDBBF0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_ZABAWY</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

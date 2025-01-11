@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="19F4D762-E43F-C941-046F-912FC7154ABC" name="UTWOR">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 16:57:20 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<ordsAlias>table_25</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_UTWOR" id="1DA5F762-E9FA-7B93-7D94-853B23E8E74E">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 16:58:11 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwa_utworu" id="1D304F58-2F6B-3A88-9E01-F067690141D3">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 16:58:11 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Wykonawca_utworu" id="E0EA0225-713D-2F14-B0AD-499301B4F1D5">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 16:58:11 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35 CHAR</dataTypeSize>
+<ownDataTypeParameters>35 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Licencja_utworu" id="3E59A201-ED11-8FB1-866B-816CFC90B76D">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 20:57:26 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GATUNEK_MUZYCZNY_ID_FK" id="249F000E-131C-FE9E-6026-D972D7472D97">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 16:58:43 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B49F7B4C-2CDC-8E47-87B8-0BDEE4732D7C" referredColumn="732A4213-8569-08AA-C918-F5D4FBB4835F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D28F51A1-B227-B59C-E7AE-0E214B7FF329" name="UTWOR_PK">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 16:58:11 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1DA5F762-E9FA-7B93-7D94-853B23E8E74E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0359F9E5-8D62-A0FA-FB39-5B78234C5D17" name="utw_gat_fk">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 16:58:43 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="249F000E-131C-FE9E-6026-D972D7472D97"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

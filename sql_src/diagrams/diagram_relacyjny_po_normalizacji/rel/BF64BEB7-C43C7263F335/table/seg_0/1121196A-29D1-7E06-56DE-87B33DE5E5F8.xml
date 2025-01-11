@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1121196A-29D1-7E06-56DE-87B33DE5E5F8" name="ADRESY_PRACOWNIKOW">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 17:05:26 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<ordsAlias>table_28</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ADRESY_ID_FK" id="A04DC8AB-47F4-3E3C-26E1-8D31948DDA67">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 17:05:53 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="76089EDD-C909-0A60-E300-5B87D16E61BE" referredColumn="D67CF8CB-23E0-D7AD-B271-B91DF642223F"/>
+</associations>
+</Column>
+<Column name="PRACOWNICY_ID_FK" id="69239940-B451-C14D-015B-67855D19EF79">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 17:06:02 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="95CB8AC3-7ED4-9688-DC7C-80441F893944" referredColumn="EACE80BF-FE21-C581-F2C0-E06CD9252C8A"/>
+</associations>
+</Column>
+<Column name="MIEJSCOWOSCI_ID_FK" id="C38565E2-F273-09AC-2794-4E151EDB5AB2">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 20:54:04 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AFA87445-1338-22E7-F2B4-78B61D425B5A" referredColumn="955A0D0B-9AA0-DB3A-8309-59537CA61C08"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="96F8EA4C-BECE-DE51-D299-FD66AFC88A99" name="adr_prc_adr_fk">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 17:05:53 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A04DC8AB-47F4-3E3C-26E1-8D31948DDA67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3869DC80-AD2F-C248-96D1-65CB28A1581F" name="adr_prc_prc_fk">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 17:06:02 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69239940-B451-C14D-015B-67855D19EF79"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EDA8D167-EA54-31D8-6211-4AEBF8EA2E46" name="adr_prc_msc_fk">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 20:54:04 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C38565E2-F273-09AC-2794-4E151EDB5AB2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

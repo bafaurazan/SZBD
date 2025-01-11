@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="81E70E58-81B5-2304-6956-8A988505A5BE" containerWithKeyObject="1C9738E2-D882-01E3-8987-067C148F6AF6" localFKIndex="C0CB7821-7D87-A706-75B5-780BFF145D3E" name="mat_grp_fk">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 21:06:40 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<referredTableLongName>GRUPY_MATERIALOW</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A8434DD5-6EB9-4AFA-3E00-30716B9B72CA</referredTableID>
+<keyObject>52D5A07E-AF05-B5CF-C22E-CB6F49A9AF4D</keyObject>
+<referredKeyID>52D5A07E-AF05-B5CF-C22E-CB6F49A9AF4D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_GRUPY_MATERIALOW</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

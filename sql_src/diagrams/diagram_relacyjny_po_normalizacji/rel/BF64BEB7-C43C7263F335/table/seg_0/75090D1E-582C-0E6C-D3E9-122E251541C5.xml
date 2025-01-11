@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="75090D1E-582C-0E6C-D3E9-122E251541C5" name="KONTAKT_DO_PRACOWNIKA">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 14:17:15 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_KONTAKT_DO_PRACOWNIKA" id="B184A65F-53B9-3C48-4211-D158D823C103">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 14:18:18 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Adres_email_pracownika" id="16BE30B1-4A3B-C3CF-0A09-CA347B1861E1">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 14:18:18 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Numer_telefonu_pracownika" id="E7623950-C9AD-B539-8067-833752B16CD4">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 14:18:18 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 CHAR</dataTypeSize>
+<ownDataTypeParameters>12 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRACOWNICY_ID_FK" id="D0850D62-8C12-2C9D-CF88-88EA3C072CF0">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 16:48:05 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="85AF5529-55BE-86E1-2FD4-9B853ACAAD30" referredColumn="EACE80BF-FE21-C581-F2C0-E06CD9252C8A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9FC3A871-5EDA-7917-8CCE-41A99596C7D8" name="KONTAKT_DO_PRACOWNIKA_PK">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 14:18:18 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B184A65F-53B9-3C48-4211-D158D823C103"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E88E8A56-6EEA-24BE-F50A-9C0A5A4CB3F5" name="kon_prc_fk">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 16:48:05 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0850D62-8C12-2C9D-CF88-88EA3C072CF0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

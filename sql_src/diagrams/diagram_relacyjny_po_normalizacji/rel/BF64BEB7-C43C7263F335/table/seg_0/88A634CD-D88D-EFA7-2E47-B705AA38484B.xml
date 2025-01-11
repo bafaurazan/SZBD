@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="88A634CD-D88D-EFA7-2E47-B705AA38484B" name="ADRESY_KLIENTOW">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 17:04:50 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<ordsAlias>table_27</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="KLIENCI_ID_FK" id="56454921-B496-4AB6-5F35-2776CECB2E29">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 17:05:12 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="90D26485-6A66-9B40-119A-F6075A8F6125" referredColumn="4BB7B183-6DDE-A36E-95B5-3B70FB118768"/>
+</associations>
+</Column>
+<Column name="ADRESY_ID_FK" id="85463C6B-B219-1842-8434-8154632B97EA">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 17:05:16 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="22B504B3-9720-44B5-2D32-AF314799427C" referredColumn="D67CF8CB-23E0-D7AD-B271-B91DF642223F"/>
+</associations>
+</Column>
+<Column name="MIEJSCOWOSCI_ID_FK" id="475A8F42-6DAA-B447-C6D2-232DB79B13D7">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 20:54:12 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E5ED955A-9BD5-742B-8EAD-4E0B9910D104" referredColumn="955A0D0B-9AA0-DB3A-8309-59537CA61C08"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2F1BC825-70CE-E05A-CE2D-4CFFF0514FEB" name="ADRESY_KLIENTA_KLIENCI_FK">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 17:05:12 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56454921-B496-4AB6-5F35-2776CECB2E29"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="47D6FB32-50DE-3870-DF5D-C0810A459817" name="ADRESY_KLIENTA_ADRESY_FK">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 17:05:16 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85463C6B-B219-1842-8434-8154632B97EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B63400A3-F40B-CC5C-8903-185937633BC8" name="adr_kl_msc_fk">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 20:54:12 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="475A8F42-6DAA-B447-C6D2-232DB79B13D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

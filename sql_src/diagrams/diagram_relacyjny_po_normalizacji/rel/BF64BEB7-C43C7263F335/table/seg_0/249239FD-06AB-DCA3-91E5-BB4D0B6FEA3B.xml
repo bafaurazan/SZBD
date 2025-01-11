@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="249239FD-06AB-DCA3-91E5-BB4D0B6FEA3B" name="ZAMOWIENIA">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 14:30:37 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<ordsAlias>table_22</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ZAMOWIENIA" id="49E99A71-0B47-13B5-3E7A-6EF397984900">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 14:30:52 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Osoba_do_odbioru_zamowienia" id="010CC732-F5AD-221F-1542-2A92F756E65C">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 14:31:24 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>65 CHAR</dataTypeSize>
+<ownDataTypeParameters>65 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sposob_dostawy_zamowienia" id="8F6F690E-C257-283A-B241-5B8B4C276918">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 14:40:47 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Osoba_zamawiajaca" id="65BBB358-54D5-5B1A-4A0B-0E56D297DEBD">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 14:40:47 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>65 CHAR</dataTypeSize>
+<ownDataTypeParameters>65 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BF33DC6E-482B-5891-C5FC-8F8B7A31CEA5" name="ZAMOWIENIA_PK">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 14:30:52 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49E99A71-0B47-13B5-3E7A-6EF397984900"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

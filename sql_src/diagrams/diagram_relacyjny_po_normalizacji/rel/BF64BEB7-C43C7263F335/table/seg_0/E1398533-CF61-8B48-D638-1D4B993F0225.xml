@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E1398533-CF61-8B48-D638-1D4B993F0225" name="ZLECENIA">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 13:26:15 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ZLECENIA" id="D8B71B3C-9724-ED95-713F-96C3D921202E">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 13:28:06 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Wstepna_cena_zlecenia" id="80848062-7DD7-7F27-2A40-67D163767A64">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 13:28:06 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_wystawienia_zlecenia" id="FC771431-A812-F103-2958-18E181E04605">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 13:28:06 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Status_zlecenia" id="26E87B44-3548-F808-5CE7-CB66B14D83C3">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 13:28:06 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KLIENCI_ID_FK" id="3C66EE15-CD51-7BD4-3F66-37A6739266CF">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 14:07:34 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F81C34F-A5ED-0338-1068-09E7D55B73B7" referredColumn="4BB7B183-6DDE-A36E-95B5-3B70FB118768"/>
+</associations>
+</Column>
+<Column name="OFERTY_ID_FK" id="36A9118D-4E28-EE51-7E8D-4211E5D05247">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 14:21:42 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FD223C61-7B2B-7F0D-7D69-9897D72D080C" referredColumn="250817C0-1FF1-61FB-5F22-743B57367BF1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="162B1A14-9EBC-CDC2-A737-8C7C3719365E" name="ZLECENIA_PK">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 13:28:06 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8B71B3C-9724-ED95-713F-96C3D921202E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CD5C8CA5-1984-7423-5284-570F99F1778F" name="zlec_kl_fk">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 14:07:34 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C66EE15-CD51-7BD4-3F66-37A6739266CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="574FFFED-54C0-03B7-15A5-5ADA481CE36C" name="zlec_oft_fk">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 14:21:42 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_po_normalizacji</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36A9118D-4E28-EE51-7E8D-4211E5D05247"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

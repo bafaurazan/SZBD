@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="diagram_relacyjny_przed_normalizacja" id="3FB3E496-2550-772F-C5A7-59CAF851BD8F" version="3.5">
+<createdBy>u169828</createdBy>
+<createdTime>2025-01-09 12:12:55 UTC</createdTime>
+<ownerDesignName>diagram_relacyjny_przed_normalizacja</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>3FB3E496-2550-772F-C5A7-59CAF851BD8F</designId>
+</OSDM_Design>
