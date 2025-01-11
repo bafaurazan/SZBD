@@ -43,6 +43,20 @@ FROM materialy m
 JOIN grupy_materialow g ON m.grupy_materialow_id_fk = g.id_grupy_materialow
 WHERE m.dostepna_ilosc_materialow < m.wymagana_ilosc_materialow;
 
+-- Wynik tej kwerendy nie posiada żadnych rekordów, ponieważ wszystkie materiały wprowadzone do bazy danych spełniają kryteria wymaganej ilości
+-- Kwerenda udowadniająca, której wynikiem są dane materiałów, ich ilość dostępna oraz wymagana oraz grupa do której materiały należą
+SELECT
+    m.nazwa_materialu AS Material,
+    m.dostepna_ilosc_materialow AS Dostepna_Ilosc,
+    m.wymagana_ilosc_materialow AS Wymagana_Ilosc,
+    gm.nazwa_grupy_materialow AS Grupa_Materialow
+FROM
+    materialy m
+JOIN
+    grupy_materialow gm
+ON
+    m.grupy_materialow_id_fk = gm.id_grupy_materialow;
+
 
 -- 8. Zabawy odpowiednie dla dzieci w wieku 5–10 lat
 SELECT z.id_zabawy, z.nazwa_zabawy
@@ -64,7 +78,6 @@ FROM opinia_klienta o
 JOIN informacja_zwrotna i ON o.informacja_zwrotna_id_fk = i.id_informacja_zwrotna
 JOIN wydarzenie w ON i.wydarzenie_id_fk = w.id_wydarzenie
 WHERE i.wydarzenie_id_fk = 1;
-
 
 
 -- 10. Lokalizacje z wydarzeniami

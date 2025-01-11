@@ -6,7 +6,6 @@
 
 SET DEFINE OFF
 
-
 CREATE TABLE adresy (
     id_adresy        INTEGER NOT NULL,
     ulica            VARCHAR2(45 CHAR) NOT NULL,

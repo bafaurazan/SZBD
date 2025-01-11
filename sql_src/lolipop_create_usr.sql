@@ -12,4 +12,4 @@ ALTER USER c##lolipop QUOTA UNLIMITED ON users;
 ALTER USER c##lolipop ACCOUNT UNLOCK;
 
 
--- DROP USER c##lolipop CASCADE;
+--DROP USER c##lolipop CASCADE;

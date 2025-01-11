@@ -25,6 +25,24 @@ SELECT k.id_klienci, k.imie_klienta, k.nazwisko_klienta
 FROM klienci k
 JOIN adresy_klientow ak ON k.id_klienci = ak.klienci_id_fk;
 
+-- Wynik tej kwerendy nie posiada żadnych rekordów, ponieważ wszyscy klienci mają przypisajne adresy
+-- Kwerenda udowadniająca, której wynikiem są dane klientów oraz przypisane do nich adresy
+SELECT 
+    k.id_klienci,
+    k.imie_klienta,
+    k.nazwisko_klienta,
+    a.ulica,
+    a.numer_budynku,
+    a.numer_mieszkania
+FROM 
+    klienci k
+INNER JOIN 
+    adresy_klientow ak 
+    ON k.id_klienci = ak.klienci_id_fk
+INNER JOIN 
+    adresy a 
+    ON ak.adresy_id_fk = a.id_adresy;
+
 -- 5. Suma zbiorów (UNION)
 -- Połącz listę imion i nazwisk klientów oraz pracowników
 SELECT imie_klienta AS imie, nazwisko_klienta AS nazwisko
