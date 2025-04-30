@@ -1,0 +1,71 @@
+-- Table view configuration for PDB_Piasek_1, PDB_Piasek_2 and PDB_Bazan_3 PDB containers
+-- Each container should have 500MB table space
+
+
+
+-- Creating the tablespaces
+
+-- PDB_Piasek_1
+
+ALTER SESSION SET CONTAINER = PDB_Piasek_1;
+
+CREATE TABLESPACE Piasek_1_TS
+DATAFILE '/opt/oracle/oradata/XE/pdb_piasek_1/piasek_1_ts01.dbf'
+SIZE 500M
+AUTOEXTEND OFF
+ONLINE;
+
+
+-- PDB_Piasek_2
+
+ALTER SESSION SET CONTAINER = PDB_Piasek_2;
+
+CREATE TABLESPACE Piasek_2_TS
+DATAFILE '/opt/oracle/oradata/XE/pdb_piasek_2/piasek_2_ts01.dbf'
+SIZE 500M
+AUTOEXTEND OFF
+ONLINE;
+
+
+-- PDB_Bazan_3
+
+ALTER SESSION SET CONTAINER = PDB_Bazan_3;
+
+CREATE TABLESPACE Bazan_3_TS
+DATAFILE '/opt/oracle/oradata/XE/pdb_bazan_3/bazan_3_ts01.dbf'
+SIZE 500M
+AUTOEXTEND OFF
+ONLINE;
+
+
+
+
+-- Veryfying if the changes took places for each container individually
+
+-- PDB_Piasek_1
+ALTER SESSION SET CONTAINER = PDB_Piasek_1;
+SELECT TABLESPACE_NAME, BYTES/1024/1024 AS MB
+FROM DBA_DATA_FILES
+WHERE TABLESPACE_NAME = 'Piasek_1_TS';
+
+-- PDB_Piasek_2
+ALTER SESSION SET CONTAINER = PDB_Piasek_2;
+SELECT TABLESPACE_NAME, BYTES/1024/1024 AS MB
+FROM DBA_DATA_FILES
+WHERE TABLESPACE_NAME = 'Piasek_2_TS';
+
+-- PDB_Bazan_3
+ALTER SESSION SET CONTAINER = PDB_Bazan_3;
+SELECT TABLESPACE_NAME, BYTES/1024/1024 AS MB
+FROM DBA_DATA_FILES
+WHERE TABLESPACE_NAME = 'Bazan_3_TS';
+
+
+-- In case of launching the script again, remove all the created tablespaces
+--ALTER SESSION SET CONTAINER = PDB_Piasek_1;
+--DROP TABLESPACE piasek_1_ts INCLUDING CONTENTS AND DATAFILES;
+--ALTER SESSION SET CONTAINER = PDB_Piasek_2;
+--DROP TABLESPACE Piasek_2_TS INCLUDING CONTENTS AND DATAFILES;
+--ALTER SESSION SET CONTAINER = PDB_Bazan_3;
+--DROP TABLESPACE Bazan_3_TS INCLUDING CONTENTS AND DATAFILES;
+
