@@ -1,0 +1,2 @@
+# LISTENER.ORA, TNSNAMES.ORA & SQLNET.ORA DIRECTORY
+/opt/oracle/homes/OraDBHome21cXE/network/admin

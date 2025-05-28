@@ -20,7 +20,7 @@ ALIAS_1_169828 =
   (DESCRIPTION =
     (ADDRESS = (PROTOCOL = TCP)(HOST = localhost)(PORT = 1522))
     (CONNECT_DATA =
-      (SERVICE_NAME = XE)
+      (SERVICE_NAME = PDB_PIASEK_1)
     )
   )
 
@@ -29,7 +29,7 @@ ALIAS_2_169828 =
   (DESCRIPTION =
     (ADDRESS = (PROTOCOL = TCP)(HOST = localhost)(PORT = 1544))
     (CONNECT_DATA =
-      (SERVICE_NAME = XE)
+      (SERVICE_NAME = PDB_PIASEK_2)
     )
   )
 
@@ -38,7 +38,7 @@ ALIAS_3_176768 =
   (DESCRIPTION =
     (ADDRESS = (PROTOCOL = TCP)(HOST = localhost)(PORT = 1588))
     (CONNECT_DATA =
-      (SERVICE_NAME = XE)
+      (SERVICE_NAME = PDB_BAZAN_3)
     )
   )
 

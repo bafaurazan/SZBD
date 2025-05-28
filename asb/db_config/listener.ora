@@ -22,8 +22,9 @@ LISTENER_1_169828 =
 SID_LIST_LISTENER_1_169828 =
   (SID_LIST =
     (SID_DESC =
-      (GLOBAL_DBNAME = XE)
+      (GLOBAL_DBNAME = PDB_PIASEK_1)
       (SID_NAME = XE)
+      (ORACLE_HOME = /opt/oracle/product/21c/dbhomeXE)
     )
   )
 
@@ -38,8 +39,9 @@ LISTENER_2_169828 =
 SID_LIST_LISTENER_2_169828 =
   (SID_LIST =
     (SID_DESC =
-      (GLOBAL_DBNAME = XE)
+      (GLOBAL_DBNAME = PDB_PIASEK_2)
       (SID_NAME = XE)
+      (ORACLE_HOME = /opt/oracle/product/21c/dbhomeXE)
     )
   )
 
@@ -56,8 +58,9 @@ LISTENER_3_176768 =
 SID_LIST_LISTENER_3_176768 =
   (SID_LIST =
     (SID_DESC =
-      (GLOBAL_DBNAME = XE)
+      (GLOBAL_DBNAME = PDB_BAZAN_3)
       (SID_NAME = XE)
+      (ORACLE_HOME = /opt/oracle/product/21c/dbhomeXE)
     )
   )
 
